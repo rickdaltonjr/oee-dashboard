@@ -1,0 +1,13 @@
+# Ignorar o arquivo fantasma do Windows
+nul
+
+# Ignorar pastas temporárias do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar pastas do Python
+__pycache__/
+*.pyc
+
+# Ignorar ambientes virtuais
+venv/
+env/

@@ -1,0 +1,820 @@
+date,line_id,product,shift,available_time_min,production_time_min,downtime_min,units_produced,defective_units,good_units,availability,performance,quality,oee,downtime_reasons
+2025-12-11,LINHA_A,Iogurte Natural,1,480,393,87,28603,343,28260,0.8187,0.8734,0.988,0.7065,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Ajuste de Equipamento', 'duration': 12}, {'reason': 'Falta de Matéria-Prima', 'duration': 45}]"
+2025-12-11,LINHA_A,Iogurte Natural,2,480,480,0,39197,1256,37941,1.0,0.9799,0.968,0.9485,[]
+2025-12-11,LINHA_A,Iogurte Natural,3,480,429,51,35588,1511,34077,0.8938,0.9955,0.9575,0.8519,"[{'reason': 'Limpeza CIP', 'duration': 51}]"
+2025-12-11,LINHA_B,Iogurte Grego,1,480,480,0,28072,372,27700,1.0,0.8772,0.9867,0.8656,[]
+2025-12-11,LINHA_B,Iogurte Grego,2,480,432,48,26346,477,25869,0.9,0.9148,0.9819,0.8084,"[{'reason': 'Limpeza CIP', 'duration': 48}]"
+2025-12-11,LINHA_B,Iogurte Grego,3,480,473,7,28185,605,27580,0.9854,0.8938,0.9785,0.8619,"[{'reason': 'Falha Elétrica', 'duration': 7}]"
+2025-12-11,LINHA_C,Leite Fermentado,1,480,394,86,21308,674,20634,0.8208,0.9271,0.9684,0.7369,"[{'reason': 'Troca de Sabor', 'duration': 17}, {'reason': 'Falta de Matéria-Prima', 'duration': 69}]"
+2025-12-11,LINHA_C,Leite Fermentado,2,480,480,0,26351,333,26018,1.0,0.9411,0.9874,0.9292,[]
+2025-12-11,LINHA_C,Leite Fermentado,3,480,480,0,27785,1346,26439,1.0,0.9923,0.9516,0.9442,[]
+2025-12-12,LINHA_A,Iogurte Natural,1,480,272,208,21593,535,21058,0.5667,0.9526,0.9752,0.5264,"[{'reason': 'Troca de Sabor', 'duration': 32}, {'reason': 'Falta de Matéria-Prima', 'duration': 176}]"
+2025-12-12,LINHA_A,Iogurte Natural,2,480,480,0,36971,242,36729,1.0,0.9243,0.9935,0.9182,[]
+2025-12-12,LINHA_A,Iogurte Natural,3,480,433,47,32357,919,31438,0.9021,0.8967,0.9716,0.786,"[{'reason': 'Falha Elétrica', 'duration': 19}, {'reason': 'Controle de Qualidade', 'duration': 28}]"
+2025-12-12,LINHA_B,Iogurte Grego,1,480,450,30,29863,1190,28673,0.9375,0.9954,0.9602,0.896,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2025-12-12,LINHA_B,Iogurte Grego,2,480,297,183,17412,122,17290,0.6188,0.8794,0.993,0.5403,"[{'reason': 'Troca de Sabor', 'duration': 39}, {'reason': 'Manutenção Preventiva', 'duration': 109}, {'reason': 'Falha Elétrica', 'duration': 26}, {'reason': 'Ajuste de Equipamento', 'duration': 9}]"
+2025-12-12,LINHA_B,Iogurte Grego,3,480,384,96,22801,964,21837,0.8,0.8907,0.9577,0.6824,"[{'reason': 'Falta de Matéria-Prima', 'duration': 96}]"
+2025-12-12,LINHA_C,Leite Fermentado,1,480,448,32,24340,276,24064,0.9333,0.9314,0.9887,0.8594,"[{'reason': 'Limpeza CIP', 'duration': 32}]"
+2025-12-12,LINHA_C,Leite Fermentado,2,480,469,11,27304,1085,26219,0.9771,0.998,0.9603,0.9364,"[{'reason': 'Falha Elétrica', 'duration': 11}]"
+2025-12-12,LINHA_C,Leite Fermentado,3,480,480,0,23823,993,22830,1.0,0.8508,0.9583,0.8154,[]
+2025-12-13,LINHA_A,Iogurte Natural,1,480,450,30,33891,346,33545,0.9375,0.9038,0.9898,0.7548,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2025-12-13,LINHA_A,Iogurte Natural,2,480,415,65,29725,564,29161,0.8646,0.8595,0.981,0.6561,"[{'reason': 'Troca de Sabor', 'duration': 38}, {'reason': 'Controle de Qualidade', 'duration': 27}]"
+2025-12-13,LINHA_A,Iogurte Natural,3,480,411,69,33670,883,32787,0.8562,0.9831,0.9738,0.7377,"[{'reason': 'Limpeza CIP', 'duration': 59}, {'reason': 'Falha Elétrica', 'duration': 10}]"
+2025-12-13,LINHA_B,Iogurte Grego,1,480,480,0,30623,1201,29422,1.0,0.957,0.9608,0.8275,[]
+2025-12-13,LINHA_B,Iogurte Grego,2,480,455,25,28161,682,27479,0.9479,0.9284,0.9758,0.7728,"[{'reason': 'Ajuste de Equipamento', 'duration': 25}]"
+2025-12-13,LINHA_B,Iogurte Grego,3,480,480,0,27717,177,27540,1.0,0.8662,0.9936,0.7746,[]
+2025-12-13,LINHA_C,Leite Fermentado,1,480,453,27,24477,1122,23355,0.9437,0.9263,0.9542,0.7507,"[{'reason': 'Falta de Matéria-Prima', 'duration': 27}]"
+2025-12-13,LINHA_C,Leite Fermentado,2,480,444,36,24950,381,24569,0.925,0.9633,0.9847,0.7897,"[{'reason': 'Troca de Sabor', 'duration': 36}]"
+2025-12-13,LINHA_C,Leite Fermentado,3,480,480,0,25016,306,24710,1.0,0.8934,0.9878,0.7943,[]
+2025-12-14,LINHA_A,Iogurte Natural,1,480,252,228,20661,604,20057,0.525,0.9839,0.9708,0.4513,"[{'reason': 'Falta de Matéria-Prima', 'duration': 84}, {'reason': 'Limpeza CIP', 'duration': 57}, {'reason': 'Falta de Matéria-Prima', 'duration': 35}, {'reason': 'Falha Elétrica', 'duration': 22}, {'reason': 'Controle de Qualidade', 'duration': 30}]"
+2025-12-14,LINHA_A,Iogurte Natural,2,480,413,67,30430,737,29693,0.8604,0.8842,0.9758,0.6681,"[{'reason': 'Manutenção Preventiva', 'duration': 67}]"
+2025-12-14,LINHA_A,Iogurte Natural,3,480,353,127,27257,648,26609,0.7354,0.9266,0.9762,0.5987,"[{'reason': 'Falta de Matéria-Prima', 'duration': 78}, {'reason': 'Limpeza CIP', 'duration': 49}]"
+2025-12-14,LINHA_B,Iogurte Grego,1,480,480,0,27775,560,27215,1.0,0.868,0.9798,0.7654,[]
+2025-12-14,LINHA_B,Iogurte Grego,2,480,341,139,21720,464,21256,0.7104,0.9554,0.9786,0.5978,"[{'reason': 'Manutenção Preventiva', 'duration': 88}, {'reason': 'Falta de Matéria-Prima', 'duration': 51}]"
+2025-12-14,LINHA_B,Iogurte Grego,3,480,340,140,20289,361,19928,0.7083,0.8951,0.9822,0.5605,"[{'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Falta de Matéria-Prima', 'duration': 93}]"
+2025-12-14,LINHA_C,Leite Fermentado,1,480,480,0,26360,728,25632,1.0,0.9414,0.9724,0.8239,[]
+2025-12-14,LINHA_C,Leite Fermentado,2,480,480,0,24970,1145,23825,1.0,0.8918,0.9541,0.7658,[]
+2025-12-14,LINHA_C,Leite Fermentado,3,480,458,22,24670,1217,23453,0.9542,0.9234,0.9507,0.7538,"[{'reason': 'Troca de Sabor', 'duration': 22}]"
+2025-12-15,LINHA_A,Iogurte Natural,1,480,440,40,35355,554,34801,0.9167,0.9642,0.9843,0.87,"[{'reason': 'Troca de Sabor', 'duration': 40}]"
+2025-12-15,LINHA_A,Iogurte Natural,2,480,458,22,36068,1049,35019,0.9542,0.945,0.9709,0.8755,"[{'reason': 'Falha Elétrica', 'duration': 22}]"
+2025-12-15,LINHA_A,Iogurte Natural,3,480,480,0,39011,758,38253,1.0,0.9753,0.9806,0.9563,[]
+2025-12-15,LINHA_B,Iogurte Grego,1,480,480,0,27395,865,26530,1.0,0.8561,0.9684,0.8291,[]
+2025-12-15,LINHA_B,Iogurte Grego,2,480,444,36,27433,416,27017,0.925,0.9268,0.9848,0.8443,"[{'reason': 'Limpeza CIP', 'duration': 36}]"
+2025-12-15,LINHA_B,Iogurte Grego,3,480,480,0,30516,683,29833,1.0,0.9536,0.9776,0.9323,[]
+2025-12-15,LINHA_C,Leite Fermentado,1,480,303,177,15928,160,15768,0.6312,0.9012,0.99,0.5631,"[{'reason': 'Falta de Matéria-Prima', 'duration': 177}]"
+2025-12-15,LINHA_C,Leite Fermentado,2,480,444,36,24579,1026,23553,0.925,0.949,0.9583,0.8412,"[{'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Controle de Qualidade', 'duration': 14}]"
+2025-12-15,LINHA_C,Leite Fermentado,3,480,318,162,16026,727,15299,0.6625,0.8639,0.9546,0.5464,"[{'reason': 'Ajuste de Equipamento', 'duration': 9}, {'reason': 'Falta de Matéria-Prima', 'duration': 153}]"
+2025-12-16,LINHA_A,Iogurte Natural,1,480,410,70,30831,1161,29670,0.8542,0.9024,0.9623,0.7418,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}, {'reason': 'Falha Elétrica', 'duration': 42}]"
+2025-12-16,LINHA_A,Iogurte Natural,2,480,353,127,25717,1168,24549,0.7354,0.8742,0.9546,0.6137,"[{'reason': 'Falha Elétrica', 'duration': 28}, {'reason': 'Falta de Matéria-Prima', 'duration': 45}, {'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Troca de Sabor', 'duration': 42}]"
+2025-12-16,LINHA_A,Iogurte Natural,3,480,446,34,32157,1120,31037,0.9292,0.8652,0.9652,0.7759,"[{'reason': 'Limpeza CIP', 'duration': 34}]"
+2025-12-16,LINHA_B,Iogurte Grego,1,480,480,0,27971,830,27141,1.0,0.8741,0.9703,0.8482,[]
+2025-12-16,LINHA_B,Iogurte Grego,2,480,330,150,21050,329,20721,0.6875,0.9568,0.9844,0.6475,"[{'reason': 'Manutenção Preventiva', 'duration': 107}, {'reason': 'Falha Elétrica', 'duration': 43}]"
+2025-12-16,LINHA_B,Iogurte Grego,3,480,395,85,25737,890,24847,0.8229,0.9774,0.9654,0.7765,"[{'reason': 'Limpeza CIP', 'duration': 42}, {'reason': 'Falha Elétrica', 'duration': 43}]"
+2025-12-16,LINHA_C,Leite Fermentado,1,480,454,26,23971,405,23566,0.9458,0.9051,0.9831,0.8416,"[{'reason': 'Controle de Qualidade', 'duration': 26}]"
+2025-12-16,LINHA_C,Leite Fermentado,2,480,422,58,24218,808,23410,0.8792,0.9838,0.9666,0.8361,"[{'reason': 'Ajuste de Equipamento', 'duration': 22}, {'reason': 'Troca de Sabor', 'duration': 36}]"
+2025-12-16,LINHA_C,Leite Fermentado,3,480,400,80,20516,769,19747,0.8333,0.8793,0.9625,0.7053,"[{'reason': 'Limpeza CIP', 'duration': 51}, {'reason': 'Ajuste de Equipamento', 'duration': 29}]"
+2025-12-17,LINHA_A,Iogurte Natural,1,480,441,39,34795,451,34344,0.9187,0.9468,0.987,0.8586,"[{'reason': 'Limpeza CIP', 'duration': 39}]"
+2025-12-17,LINHA_A,Iogurte Natural,2,480,350,130,28853,700,28153,0.7292,0.9892,0.9757,0.7038,"[{'reason': 'Falha Elétrica', 'duration': 15}, {'reason': 'Controle de Qualidade', 'duration': 10}, {'reason': 'Ajuste de Equipamento', 'duration': 21}, {'reason': 'Manutenção Preventiva', 'duration': 84}]"
+2025-12-17,LINHA_A,Iogurte Natural,3,480,349,131,28433,547,27886,0.7271,0.9776,0.9808,0.6972,"[{'reason': 'Limpeza CIP', 'duration': 57}, {'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Falta de Matéria-Prima', 'duration': 49}]"
+2025-12-17,LINHA_B,Iogurte Grego,1,480,480,0,29872,1407,28465,1.0,0.9335,0.9529,0.8895,[]
+2025-12-17,LINHA_B,Iogurte Grego,2,480,357,123,22425,1111,21314,0.7438,0.9422,0.9505,0.6661,"[{'reason': 'Manutenção Preventiva', 'duration': 89}, {'reason': 'Troca de Sabor', 'duration': 34}]"
+2025-12-17,LINHA_B,Iogurte Grego,3,480,480,0,29687,1320,28367,1.0,0.9277,0.9555,0.8865,[]
+2025-12-17,LINHA_C,Leite Fermentado,1,480,411,69,21434,887,20547,0.8562,0.894,0.9586,0.7338,"[{'reason': 'Controle de Qualidade', 'duration': 10}, {'reason': 'Limpeza CIP', 'duration': 59}]"
+2025-12-17,LINHA_C,Leite Fermentado,2,480,414,66,23419,802,22617,0.8625,0.9697,0.9658,0.8078,"[{'reason': 'Ajuste de Equipamento', 'duration': 12}, {'reason': 'Troca de Sabor', 'duration': 22}, {'reason': 'Limpeza CIP', 'duration': 32}]"
+2025-12-17,LINHA_C,Leite Fermentado,3,480,405,75,21412,197,21215,0.8438,0.9063,0.9908,0.7577,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Manutenção Preventiva', 'duration': 36}, {'reason': 'Controle de Qualidade', 'duration': 27}]"
+2025-12-18,LINHA_A,Iogurte Natural,1,480,427,53,32730,962,31768,0.8896,0.9198,0.9706,0.7942,"[{'reason': 'Manutenção Preventiva', 'duration': 53}]"
+2025-12-18,LINHA_A,Iogurte Natural,2,480,462,18,32901,219,32682,0.9625,0.8546,0.9933,0.817,"[{'reason': 'Falha Elétrica', 'duration': 18}]"
+2025-12-18,LINHA_A,Iogurte Natural,3,480,344,136,26612,1055,25557,0.7167,0.9283,0.9604,0.6389,"[{'reason': 'Falta de Matéria-Prima', 'duration': 89}, {'reason': 'Falha Elétrica', 'duration': 47}]"
+2025-12-18,LINHA_B,Iogurte Grego,1,480,480,0,30189,266,29923,1.0,0.9434,0.9912,0.9351,[]
+2025-12-18,LINHA_B,Iogurte Grego,2,480,480,0,29750,872,28878,1.0,0.9297,0.9707,0.9024,[]
+2025-12-18,LINHA_B,Iogurte Grego,3,480,374,106,24167,415,23752,0.7792,0.9693,0.9828,0.7422,"[{'reason': 'Controle de Qualidade', 'duration': 26}, {'reason': 'Controle de Qualidade', 'duration': 13}, {'reason': 'Falta de Matéria-Prima', 'duration': 67}]"
+2025-12-18,LINHA_C,Leite Fermentado,1,480,440,40,21914,1058,20856,0.9167,0.8538,0.9517,0.7449,"[{'reason': 'Limpeza CIP', 'duration': 40}]"
+2025-12-18,LINHA_C,Leite Fermentado,2,480,276,204,14062,228,13834,0.575,0.8734,0.9838,0.4941,"[{'reason': 'Troca de Sabor', 'duration': 33}, {'reason': 'Falta de Matéria-Prima', 'duration': 160}, {'reason': 'Falta de Matéria-Prima', 'duration': 11}]"
+2025-12-18,LINHA_C,Leite Fermentado,3,480,348,132,20162,770,19392,0.725,0.9932,0.9618,0.6926,"[{'reason': 'Limpeza CIP', 'duration': 52}, {'reason': 'Troca de Sabor', 'duration': 22}, {'reason': 'Limpeza CIP', 'duration': 58}]"
+2025-12-19,LINHA_A,Iogurte Natural,1,480,438,42,32381,680,31701,0.9125,0.8872,0.979,0.7925,"[{'reason': 'Troca de Sabor', 'duration': 42}]"
+2025-12-19,LINHA_A,Iogurte Natural,2,480,434,46,31371,221,31150,0.9042,0.8674,0.993,0.7788,"[{'reason': 'Limpeza CIP', 'duration': 46}]"
+2025-12-19,LINHA_A,Iogurte Natural,3,480,480,0,39132,1434,37698,1.0,0.9783,0.9634,0.9425,[]
+2025-12-19,LINHA_B,Iogurte Grego,1,480,399,81,24571,646,23925,0.8313,0.9237,0.9737,0.7477,"[{'reason': 'Falta de Matéria-Prima', 'duration': 81}]"
+2025-12-19,LINHA_B,Iogurte Grego,2,480,480,0,29282,671,28611,1.0,0.9151,0.9771,0.8941,[]
+2025-12-19,LINHA_B,Iogurte Grego,3,480,352,128,21265,705,20560,0.7333,0.9062,0.9668,0.6425,"[{'reason': 'Controle de Qualidade', 'duration': 16}, {'reason': 'Manutenção Preventiva', 'duration': 112}]"
+2025-12-19,LINHA_C,Leite Fermentado,1,480,406,74,20381,691,19690,0.8458,0.8606,0.9661,0.7032,"[{'reason': 'Controle de Qualidade', 'duration': 17}, {'reason': 'Controle de Qualidade', 'duration': 23}, {'reason': 'Falta de Matéria-Prima', 'duration': 34}]"
+2025-12-19,LINHA_C,Leite Fermentado,2,480,480,0,26260,1242,25018,1.0,0.9379,0.9527,0.8935,[]
+2025-12-19,LINHA_C,Leite Fermentado,3,480,402,78,21544,636,20908,0.8375,0.9187,0.9705,0.7467,"[{'reason': 'Limpeza CIP', 'duration': 51}, {'reason': 'Falha Elétrica', 'duration': 27}]"
+2025-12-20,LINHA_A,Iogurte Natural,1,480,356,124,25525,243,25282,0.7417,0.8604,0.9905,0.5688,"[{'reason': 'Falha Elétrica', 'duration': 31}, {'reason': 'Controle de Qualidade', 'duration': 11}, {'reason': 'Limpeza CIP', 'duration': 31}, {'reason': 'Falha Elétrica', 'duration': 51}]"
+2025-12-20,LINHA_A,Iogurte Natural,2,480,480,0,34566,1235,33331,1.0,0.8642,0.9643,0.7499,[]
+2025-12-20,LINHA_A,Iogurte Natural,3,480,480,0,35913,1544,34369,1.0,0.8978,0.957,0.7733,[]
+2025-12-20,LINHA_B,Iogurte Grego,1,480,480,0,31109,550,30559,1.0,0.9722,0.9823,0.8595,[]
+2025-12-20,LINHA_B,Iogurte Grego,2,480,480,0,30544,1017,29527,1.0,0.9545,0.9667,0.8304,[]
+2025-12-20,LINHA_B,Iogurte Grego,3,480,385,95,22499,872,21627,0.8021,0.8766,0.9612,0.6083,"[{'reason': 'Limpeza CIP', 'duration': 37}, {'reason': 'Falta de Matéria-Prima', 'duration': 58}]"
+2025-12-20,LINHA_C,Leite Fermentado,1,480,431,49,24298,494,23804,0.8979,0.9664,0.9797,0.7651,"[{'reason': 'Controle de Qualidade', 'duration': 14}, {'reason': 'Falha Elétrica', 'duration': 16}, {'reason': 'Ajuste de Equipamento', 'duration': 19}]"
+2025-12-20,LINHA_C,Leite Fermentado,2,480,376,104,18982,865,18117,0.7833,0.8654,0.9544,0.5823,"[{'reason': 'Falta de Matéria-Prima', 'duration': 29}, {'reason': 'Controle de Qualidade', 'duration': 27}, {'reason': 'Limpeza CIP', 'duration': 31}, {'reason': 'Troca de Sabor', 'duration': 17}]"
+2025-12-20,LINHA_C,Leite Fermentado,3,480,392,88,22508,506,22002,0.8167,0.9843,0.9775,0.7072,"[{'reason': 'Falta de Matéria-Prima', 'duration': 52}, {'reason': 'Falha Elétrica', 'duration': 36}]"
+2025-12-21,LINHA_A,Iogurte Natural,1,480,480,0,39432,359,39073,1.0,0.9858,0.9909,0.8791,[]
+2025-12-21,LINHA_A,Iogurte Natural,2,480,388,92,30547,769,29778,0.8083,0.9448,0.9748,0.67,"[{'reason': 'Controle de Qualidade', 'duration': 16}, {'reason': 'Falha Elétrica', 'duration': 8}, {'reason': 'Manutenção Preventiva', 'duration': 68}]"
+2025-12-21,LINHA_A,Iogurte Natural,3,480,453,27,35895,1394,34501,0.9437,0.9509,0.9612,0.7763,"[{'reason': 'Troca de Sabor', 'duration': 27}]"
+2025-12-21,LINHA_B,Iogurte Grego,1,480,431,49,26554,201,26353,0.8979,0.9242,0.9924,0.7412,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}, {'reason': 'Controle de Qualidade', 'duration': 19}]"
+2025-12-21,LINHA_B,Iogurte Grego,2,480,417,63,25093,257,24836,0.8688,0.9026,0.9898,0.6985,"[{'reason': 'Falha Elétrica', 'duration': 49}, {'reason': 'Controle de Qualidade', 'duration': 14}]"
+2025-12-21,LINHA_B,Iogurte Grego,3,480,480,0,30855,1012,29843,1.0,0.9642,0.9672,0.8393,[]
+2025-12-21,LINHA_C,Leite Fermentado,1,480,480,0,24153,882,23271,1.0,0.8626,0.9635,0.748,[]
+2025-12-21,LINHA_C,Leite Fermentado,2,480,480,0,27251,1002,26249,1.0,0.9732,0.9632,0.8437,[]
+2025-12-21,LINHA_C,Leite Fermentado,3,480,480,0,24156,1193,22963,1.0,0.8627,0.9506,0.7381,[]
+2025-12-22,LINHA_A,Iogurte Natural,1,480,395,85,31992,1523,30469,0.8229,0.9719,0.9524,0.7617,"[{'reason': 'Falta de Matéria-Prima', 'duration': 85}]"
+2025-12-22,LINHA_A,Iogurte Natural,2,480,418,62,33668,1014,32654,0.8708,0.9665,0.9699,0.8164,"[{'reason': 'Falta de Matéria-Prima', 'duration': 24}, {'reason': 'Troca de Sabor', 'duration': 38}]"
+2025-12-22,LINHA_A,Iogurte Natural,3,480,438,42,33722,185,33537,0.9125,0.9239,0.9945,0.8384,"[{'reason': 'Troca de Sabor', 'duration': 16}, {'reason': 'Controle de Qualidade', 'duration': 26}]"
+2025-12-22,LINHA_B,Iogurte Grego,1,480,453,27,26208,269,25939,0.9437,0.8678,0.9897,0.8106,"[{'reason': 'Manutenção Preventiva', 'duration': 27}]"
+2025-12-22,LINHA_B,Iogurte Grego,2,480,231,249,13749,606,13143,0.4813,0.8928,0.9559,0.4107,"[{'reason': 'Limpeza CIP', 'duration': 57}, {'reason': 'Manutenção Preventiva', 'duration': 28}, {'reason': 'Limpeza CIP', 'duration': 51}, {'reason': 'Falta de Matéria-Prima', 'duration': 113}]"
+2025-12-22,LINHA_B,Iogurte Grego,3,480,420,60,23851,1160,22691,0.875,0.8518,0.9514,0.7091,"[{'reason': 'Limpeza CIP', 'duration': 60}]"
+2025-12-22,LINHA_C,Leite Fermentado,1,480,480,0,27542,791,26751,1.0,0.9836,0.9713,0.9554,[]
+2025-12-22,LINHA_C,Leite Fermentado,2,480,322,158,17526,852,16674,0.6708,0.9331,0.9514,0.5955,"[{'reason': 'Falta de Matéria-Prima', 'duration': 158}]"
+2025-12-22,LINHA_C,Leite Fermentado,3,480,403,77,22195,694,21501,0.8396,0.9441,0.9687,0.7679,"[{'reason': 'Troca de Sabor', 'duration': 34}, {'reason': 'Limpeza CIP', 'duration': 43}]"
+2025-12-23,LINHA_A,Iogurte Natural,1,480,469,11,34867,1665,33202,0.9771,0.8921,0.9522,0.8301,"[{'reason': 'Ajuste de Equipamento', 'duration': 11}]"
+2025-12-23,LINHA_A,Iogurte Natural,2,480,390,90,28542,738,27804,0.8125,0.8782,0.9741,0.6951,"[{'reason': 'Falta de Matéria-Prima', 'duration': 77}, {'reason': 'Falha Elétrica', 'duration': 13}]"
+2025-12-23,LINHA_A,Iogurte Natural,3,480,461,19,33102,1616,31486,0.9604,0.8617,0.9512,0.7872,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}]"
+2025-12-23,LINHA_B,Iogurte Grego,1,480,421,59,27282,977,26305,0.8771,0.972,0.9642,0.822,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Controle de Qualidade', 'duration': 29}]"
+2025-12-23,LINHA_B,Iogurte Grego,2,480,480,0,31572,1326,30246,1.0,0.9866,0.958,0.9452,[]
+2025-12-23,LINHA_B,Iogurte Grego,3,480,300,180,19798,870,18928,0.625,0.9899,0.9561,0.5915,"[{'reason': 'Limpeza CIP', 'duration': 32}, {'reason': 'Falta de Matéria-Prima', 'duration': 139}, {'reason': 'Ajuste de Equipamento', 'duration': 9}]"
+2025-12-23,LINHA_C,Leite Fermentado,1,480,480,0,23910,524,23386,1.0,0.8539,0.9781,0.8352,[]
+2025-12-23,LINHA_C,Leite Fermentado,2,480,422,58,23117,511,22606,0.8792,0.9391,0.9779,0.8074,"[{'reason': 'Limpeza CIP', 'duration': 58}]"
+2025-12-23,LINHA_C,Leite Fermentado,3,480,315,165,16372,123,16249,0.6562,0.891,0.9925,0.5803,"[{'reason': 'Falta de Matéria-Prima', 'duration': 104}, {'reason': 'Ajuste de Equipamento', 'duration': 10}, {'reason': 'Controle de Qualidade', 'duration': 27}, {'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2025-12-24,LINHA_A,Iogurte Natural,1,480,116,364,8869,95,8774,0.2417,0.9175,0.9893,0.2194,"[{'reason': 'Troca de Sabor', 'duration': 36}, {'reason': 'Ajuste de Equipamento', 'duration': 26}, {'reason': 'Limpeza CIP', 'duration': 60}, {'reason': 'Manutenção Preventiva', 'duration': 53}, {'reason': 'Limpeza CIP', 'duration': 58}, {'reason': 'Limpeza CIP', 'duration': 53}, {'reason': 'Manutenção Preventiva', 'duration': 54}, {'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2025-12-24,LINHA_A,Iogurte Natural,2,480,211,269,16717,548,16169,0.4396,0.9507,0.9672,0.4042,"[{'reason': 'Falta de Matéria-Prima', 'duration': 97}, {'reason': 'Falta de Matéria-Prima', 'duration': 172}]"
+2025-12-24,LINHA_A,Iogurte Natural,3,480,459,21,36365,1033,35332,0.9563,0.9507,0.9716,0.8833,"[{'reason': 'Ajuste de Equipamento', 'duration': 21}]"
+2025-12-24,LINHA_B,Iogurte Grego,1,480,387,93,24100,1071,23029,0.8063,0.9341,0.9556,0.7197,"[{'reason': 'Controle de Qualidade', 'duration': 18}, {'reason': 'Troca de Sabor', 'duration': 17}, {'reason': 'Falha Elétrica', 'duration': 58}]"
+2025-12-24,LINHA_B,Iogurte Grego,2,480,474,6,26996,1052,25944,0.9875,0.8543,0.961,0.8107,"[{'reason': 'Ajuste de Equipamento', 'duration': 6}]"
+2025-12-24,LINHA_B,Iogurte Grego,3,480,354,126,20542,116,20426,0.7375,0.8704,0.9944,0.6383,"[{'reason': 'Troca de Sabor', 'duration': 25}, {'reason': 'Manutenção Preventiva', 'duration': 101}]"
+2025-12-24,LINHA_C,Leite Fermentado,1,480,470,10,24917,615,24302,0.9792,0.9088,0.9753,0.8679,"[{'reason': 'Ajuste de Equipamento', 'duration': 10}]"
+2025-12-24,LINHA_C,Leite Fermentado,2,480,413,67,23309,532,22777,0.8604,0.9675,0.9772,0.8135,"[{'reason': 'Controle de Qualidade', 'duration': 27}, {'reason': 'Falha Elétrica', 'duration': 40}]"
+2025-12-24,LINHA_C,Leite Fermentado,3,480,313,167,18057,490,17567,0.6521,0.989,0.9729,0.6274,"[{'reason': 'Troca de Sabor', 'duration': 18}, {'reason': 'Limpeza CIP', 'duration': 60}, {'reason': 'Manutenção Preventiva', 'duration': 89}]"
+2025-12-25,LINHA_A,Iogurte Natural,1,480,439,41,36473,990,35483,0.9146,0.997,0.9729,0.8871,"[{'reason': 'Troca de Sabor', 'duration': 41}]"
+2025-12-25,LINHA_A,Iogurte Natural,2,480,480,0,35440,298,35142,1.0,0.886,0.9916,0.8786,[]
+2025-12-25,LINHA_A,Iogurte Natural,3,480,480,0,34768,411,34357,1.0,0.8692,0.9882,0.8589,[]
+2025-12-25,LINHA_B,Iogurte Grego,1,480,480,0,30276,399,29877,1.0,0.9461,0.9868,0.9337,[]
+2025-12-25,LINHA_B,Iogurte Grego,2,480,380,100,24070,306,23764,0.7917,0.9501,0.9873,0.7426,"[{'reason': 'Manutenção Preventiva', 'duration': 75}, {'reason': 'Manutenção Preventiva', 'duration': 25}]"
+2025-12-25,LINHA_B,Iogurte Grego,3,480,480,0,27396,345,27051,1.0,0.8561,0.9874,0.8453,[]
+2025-12-25,LINHA_C,Leite Fermentado,1,480,464,16,23366,243,23123,0.9667,0.8633,0.9896,0.8258,"[{'reason': 'Ajuste de Equipamento', 'duration': 16}]"
+2025-12-25,LINHA_C,Leite Fermentado,2,480,437,43,23060,637,22423,0.9104,0.9046,0.9724,0.8008,"[{'reason': 'Troca de Sabor', 'duration': 43}]"
+2025-12-25,LINHA_C,Leite Fermentado,3,480,480,0,27157,903,26254,1.0,0.9699,0.9667,0.9376,[]
+2025-12-26,LINHA_A,Iogurte Natural,1,480,480,0,39241,1822,37419,1.0,0.981,0.9536,0.9355,[]
+2025-12-26,LINHA_A,Iogurte Natural,2,480,480,0,35661,1472,34189,1.0,0.8915,0.9587,0.8547,[]
+2025-12-26,LINHA_A,Iogurte Natural,3,480,407,73,29894,647,29247,0.8479,0.8814,0.9784,0.7312,"[{'reason': 'Falta de Matéria-Prima', 'duration': 73}]"
+2025-12-26,LINHA_B,Iogurte Grego,1,480,395,85,24210,935,23275,0.8229,0.9194,0.9614,0.7273,"[{'reason': 'Limpeza CIP', 'duration': 41}, {'reason': 'Falha Elétrica', 'duration': 44}]"
+2025-12-26,LINHA_B,Iogurte Grego,2,480,480,0,28411,1054,27357,1.0,0.8878,0.9629,0.8549,[]
+2025-12-26,LINHA_B,Iogurte Grego,3,480,382,98,23355,676,22679,0.7958,0.9171,0.9711,0.7087,"[{'reason': 'Manutenção Preventiva', 'duration': 50}, {'reason': 'Manutenção Preventiva', 'duration': 42}, {'reason': 'Falha Elétrica', 'duration': 6}]"
+2025-12-26,LINHA_C,Leite Fermentado,1,480,366,114,19355,114,19241,0.7625,0.9066,0.9941,0.6872,"[{'reason': 'Manutenção Preventiva', 'duration': 114}]"
+2025-12-26,LINHA_C,Leite Fermentado,2,480,480,0,25175,261,24914,1.0,0.8991,0.9896,0.8898,[]
+2025-12-26,LINHA_C,Leite Fermentado,3,480,184,296,9263,270,8993,0.3833,0.863,0.9709,0.3212,"[{'reason': 'Falha Elétrica', 'duration': 56}, {'reason': 'Falta de Matéria-Prima', 'duration': 78}, {'reason': 'Manutenção Preventiva', 'duration': 120}, {'reason': 'Limpeza CIP', 'duration': 42}]"
+2025-12-27,LINHA_A,Iogurte Natural,1,480,421,59,30492,541,29951,0.8771,0.8691,0.9823,0.6739,"[{'reason': 'Troca de Sabor', 'duration': 42}, {'reason': 'Controle de Qualidade', 'duration': 17}]"
+2025-12-27,LINHA_A,Iogurte Natural,2,480,353,127,26575,1312,25263,0.7354,0.9034,0.9506,0.5684,"[{'reason': 'Falta de Matéria-Prima', 'duration': 127}]"
+2025-12-27,LINHA_A,Iogurte Natural,3,480,450,30,32447,385,32062,0.9375,0.8653,0.9881,0.7214,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2025-12-27,LINHA_B,Iogurte Grego,1,480,413,67,24173,430,23743,0.8604,0.878,0.9822,0.6678,"[{'reason': 'Falta de Matéria-Prima', 'duration': 67}]"
+2025-12-27,LINHA_B,Iogurte Grego,2,480,480,0,31504,271,31233,1.0,0.9845,0.9914,0.8784,[]
+2025-12-27,LINHA_B,Iogurte Grego,3,480,444,36,29521,296,29225,0.925,0.9973,0.99,0.822,"[{'reason': 'Troca de Sabor', 'duration': 36}]"
+2025-12-27,LINHA_C,Leite Fermentado,1,480,345,135,17622,618,17004,0.7188,0.8756,0.9649,0.5466,"[{'reason': 'Falta de Matéria-Prima', 'duration': 112}, {'reason': 'Ajuste de Equipamento', 'duration': 7}, {'reason': 'Ajuste de Equipamento', 'duration': 16}]"
+2025-12-27,LINHA_C,Leite Fermentado,2,480,414,66,23314,312,23002,0.8625,0.9654,0.9866,0.7394,"[{'reason': 'Falha Elétrica', 'duration': 48}, {'reason': 'Troca de Sabor', 'duration': 18}]"
+2025-12-27,LINHA_C,Leite Fermentado,3,480,470,10,25391,403,24988,0.9792,0.9261,0.9841,0.8032,"[{'reason': 'Ajuste de Equipamento', 'duration': 10}]"
+2025-12-28,LINHA_A,Iogurte Natural,1,480,480,0,37663,677,36986,1.0,0.9416,0.982,0.8322,[]
+2025-12-28,LINHA_A,Iogurte Natural,2,480,474,6,36425,1055,35370,0.9875,0.9222,0.971,0.7958,"[{'reason': 'Ajuste de Equipamento', 'duration': 6}]"
+2025-12-28,LINHA_A,Iogurte Natural,3,480,480,0,36019,397,35622,1.0,0.9005,0.989,0.8015,[]
+2025-12-28,LINHA_B,Iogurte Grego,1,480,480,0,31951,623,31328,1.0,0.9985,0.9805,0.8811,[]
+2025-12-28,LINHA_B,Iogurte Grego,2,480,431,49,27360,1072,26288,0.8979,0.9522,0.9608,0.7393,"[{'reason': 'Limpeza CIP', 'duration': 49}]"
+2025-12-28,LINHA_B,Iogurte Grego,3,480,453,27,27250,1276,25974,0.9437,0.9023,0.9532,0.7305,"[{'reason': 'Falha Elétrica', 'duration': 27}]"
+2025-12-28,LINHA_C,Leite Fermentado,1,480,395,85,22111,1044,21067,0.8229,0.9596,0.9528,0.6772,"[{'reason': 'Falha Elétrica', 'duration': 43}, {'reason': 'Limpeza CIP', 'duration': 42}]"
+2025-12-28,LINHA_C,Leite Fermentado,2,480,480,0,24079,923,23156,1.0,0.86,0.9617,0.7443,[]
+2025-12-28,LINHA_C,Leite Fermentado,3,480,368,112,20807,292,20515,0.7667,0.9693,0.986,0.6594,"[{'reason': 'Falta de Matéria-Prima', 'duration': 75}, {'reason': 'Troca de Sabor', 'duration': 37}]"
+2025-12-29,LINHA_A,Iogurte Natural,1,480,480,0,34985,1457,33528,1.0,0.8746,0.9584,0.8382,[]
+2025-12-29,LINHA_A,Iogurte Natural,2,480,372,108,30428,689,29739,0.775,0.9815,0.9774,0.7435,"[{'reason': 'Falha Elétrica', 'duration': 5}, {'reason': 'Falta de Matéria-Prima', 'duration': 103}]"
+2025-12-29,LINHA_A,Iogurte Natural,3,480,471,9,36086,669,35417,0.9812,0.9194,0.9815,0.8854,"[{'reason': 'Falha Elétrica', 'duration': 9}]"
+2025-12-29,LINHA_B,Iogurte Grego,1,480,427,53,28037,624,27413,0.8896,0.9849,0.9777,0.8567,"[{'reason': 'Limpeza CIP', 'duration': 53}]"
+2025-12-29,LINHA_B,Iogurte Grego,2,480,408,72,26954,896,26058,0.85,0.991,0.9668,0.8143,"[{'reason': 'Ajuste de Equipamento', 'duration': 21}, {'reason': 'Ajuste de Equipamento', 'duration': 26}, {'reason': 'Falha Elétrica', 'duration': 25}]"
+2025-12-29,LINHA_B,Iogurte Grego,3,480,431,49,27845,916,26929,0.8979,0.9691,0.9671,0.8415,"[{'reason': 'Falha Elétrica', 'duration': 49}]"
+2025-12-29,LINHA_C,Leite Fermentado,1,480,367,113,19198,310,18888,0.7646,0.8968,0.9839,0.6746,"[{'reason': 'Ajuste de Equipamento', 'duration': 22}, {'reason': 'Manutenção Preventiva', 'duration': 44}, {'reason': 'Falha Elétrica', 'duration': 47}]"
+2025-12-29,LINHA_C,Leite Fermentado,2,480,432,48,23574,926,22648,0.9,0.9355,0.9607,0.8089,"[{'reason': 'Falha Elétrica', 'duration': 48}]"
+2025-12-29,LINHA_C,Leite Fermentado,3,480,341,139,19433,208,19225,0.7104,0.9769,0.9893,0.6866,"[{'reason': 'Manutenção Preventiva', 'duration': 98}, {'reason': 'Ajuste de Equipamento', 'duration': 17}, {'reason': 'Troca de Sabor', 'duration': 24}]"
+2025-12-30,LINHA_A,Iogurte Natural,1,480,414,66,30511,1144,29367,0.8625,0.8844,0.9625,0.7342,"[{'reason': 'Ajuste de Equipamento', 'duration': 11}, {'reason': 'Falha Elétrica', 'duration': 55}]"
+2025-12-30,LINHA_A,Iogurte Natural,2,480,440,40,32551,669,31882,0.9167,0.8878,0.9794,0.7971,"[{'reason': 'Controle de Qualidade', 'duration': 24}, {'reason': 'Controle de Qualidade', 'duration': 16}]"
+2025-12-30,LINHA_A,Iogurte Natural,3,480,480,0,39450,1232,38218,1.0,0.9863,0.9688,0.9555,[]
+2025-12-30,LINHA_B,Iogurte Grego,1,480,465,15,30754,365,30389,0.9688,0.9921,0.9881,0.9497,"[{'reason': 'Controle de Qualidade', 'duration': 15}]"
+2025-12-30,LINHA_B,Iogurte Grego,2,480,441,39,25069,1109,23960,0.9187,0.8527,0.9558,0.7487,"[{'reason': 'Limpeza CIP', 'duration': 39}]"
+2025-12-30,LINHA_B,Iogurte Grego,3,480,230,250,14358,463,13895,0.4792,0.9364,0.9678,0.4342,"[{'reason': 'Limpeza CIP', 'duration': 56}, {'reason': 'Falta de Matéria-Prima', 'duration': 89}, {'reason': 'Falta de Matéria-Prima', 'duration': 60}, {'reason': 'Manutenção Preventiva', 'duration': 23}, {'reason': 'Troca de Sabor', 'duration': 22}]"
+2025-12-30,LINHA_C,Leite Fermentado,1,480,254,226,12845,633,12212,0.5292,0.8669,0.9507,0.4361,"[{'reason': 'Controle de Qualidade', 'duration': 29}, {'reason': 'Limpeza CIP', 'duration': 44}, {'reason': 'Falha Elétrica', 'duration': 45}, {'reason': 'Falta de Matéria-Prima', 'duration': 108}]"
+2025-12-30,LINHA_C,Leite Fermentado,2,480,458,22,26399,1165,25234,0.9542,0.9881,0.9559,0.9012,"[{'reason': 'Controle de Qualidade', 'duration': 22}]"
+2025-12-30,LINHA_C,Leite Fermentado,3,480,390,90,19524,392,19132,0.8125,0.8582,0.9799,0.6833,"[{'reason': 'Falta de Matéria-Prima', 'duration': 47}, {'reason': 'Troca de Sabor', 'duration': 43}]"
+2025-12-31,LINHA_A,Iogurte Natural,1,480,426,54,31950,732,31218,0.8875,0.9,0.9771,0.7804,"[{'reason': 'Limpeza CIP', 'duration': 54}]"
+2025-12-31,LINHA_A,Iogurte Natural,2,480,352,128,26459,1010,25449,0.7333,0.902,0.9618,0.6362,"[{'reason': 'Falha Elétrica', 'duration': 19}, {'reason': 'Manutenção Preventiva', 'duration': 109}]"
+2025-12-31,LINHA_A,Iogurte Natural,3,480,469,11,35873,406,35467,0.9771,0.9179,0.9887,0.8867,"[{'reason': 'Controle de Qualidade', 'duration': 11}]"
+2025-12-31,LINHA_B,Iogurte Grego,1,480,480,0,29592,705,28887,1.0,0.9247,0.9762,0.9027,[]
+2025-12-31,LINHA_B,Iogurte Grego,2,480,425,55,26770,149,26621,0.8854,0.9448,0.9944,0.8319,"[{'reason': 'Falta de Matéria-Prima', 'duration': 41}, {'reason': 'Controle de Qualidade', 'duration': 14}]"
+2025-12-31,LINHA_B,Iogurte Grego,3,480,454,26,30089,351,29738,0.9458,0.9941,0.9883,0.9293,"[{'reason': 'Controle de Qualidade', 'duration': 26}]"
+2025-12-31,LINHA_C,Leite Fermentado,1,480,480,0,27986,772,27214,1.0,0.9995,0.9724,0.9719,[]
+2025-12-31,LINHA_C,Leite Fermentado,2,480,451,29,25321,365,24956,0.9396,0.9625,0.9856,0.8913,"[{'reason': 'Controle de Qualidade', 'duration': 29}]"
+2025-12-31,LINHA_C,Leite Fermentado,3,480,422,58,21628,143,21485,0.8792,0.8786,0.9934,0.7673,"[{'reason': 'Falha Elétrica', 'duration': 58}]"
+2026-01-01,LINHA_A,Iogurte Natural,1,480,441,39,35512,901,34611,0.9187,0.9663,0.9746,0.8653,"[{'reason': 'Controle de Qualidade', 'duration': 15}, {'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-01-01,LINHA_A,Iogurte Natural,2,480,278,202,21636,259,21377,0.5792,0.9339,0.988,0.5344,"[{'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Falta de Matéria-Prima', 'duration': 173}]"
+2026-01-01,LINHA_A,Iogurte Natural,3,480,480,0,39170,1863,37307,1.0,0.9793,0.9524,0.9327,[]
+2026-01-01,LINHA_B,Iogurte Grego,1,480,451,29,28461,665,27796,0.9396,0.9466,0.9766,0.8686,"[{'reason': 'Ajuste de Equipamento', 'duration': 29}]"
+2026-01-01,LINHA_B,Iogurte Grego,2,480,480,0,27949,1040,26909,1.0,0.8734,0.9628,0.8409,[]
+2026-01-01,LINHA_B,Iogurte Grego,3,480,450,30,26498,408,26090,0.9375,0.8833,0.9846,0.8153,"[{'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-01-01,LINHA_C,Leite Fermentado,1,480,400,80,20197,828,19369,0.8333,0.8656,0.959,0.6917,"[{'reason': 'Falta de Matéria-Prima', 'duration': 80}]"
+2026-01-01,LINHA_C,Leite Fermentado,2,480,480,0,26541,417,26124,1.0,0.9479,0.9843,0.933,[]
+2026-01-01,LINHA_C,Leite Fermentado,3,480,480,0,24821,930,23891,1.0,0.8865,0.9625,0.8533,[]
+2026-01-02,LINHA_A,Iogurte Natural,1,480,441,39,32367,588,31779,0.9187,0.8807,0.9818,0.7945,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Ajuste de Equipamento', 'duration': 12}, {'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-01-02,LINHA_A,Iogurte Natural,2,480,480,0,34513,495,34018,1.0,0.8628,0.9857,0.8505,[]
+2026-01-02,LINHA_A,Iogurte Natural,3,480,480,0,35088,1096,33992,1.0,0.8772,0.9688,0.8498,[]
+2026-01-02,LINHA_B,Iogurte Grego,1,480,348,132,20622,455,20167,0.725,0.8889,0.9779,0.6302,"[{'reason': 'Limpeza CIP', 'duration': 34}, {'reason': 'Manutenção Preventiva', 'duration': 49}, {'reason': 'Falha Elétrica', 'duration': 49}]"
+2026-01-02,LINHA_B,Iogurte Grego,2,480,370,110,23276,545,22731,0.7708,0.9436,0.9766,0.7103,"[{'reason': 'Manutenção Preventiva', 'duration': 110}]"
+2026-01-02,LINHA_B,Iogurte Grego,3,480,423,57,27981,1101,26880,0.8812,0.9922,0.9607,0.84,"[{'reason': 'Falta de Matéria-Prima', 'duration': 26}, {'reason': 'Falha Elétrica', 'duration': 31}]"
+2026-01-02,LINHA_C,Leite Fermentado,1,480,480,0,27447,739,26708,1.0,0.9802,0.9731,0.9539,[]
+2026-01-02,LINHA_C,Leite Fermentado,2,480,436,44,22643,665,21978,0.9083,0.8903,0.9706,0.7849,"[{'reason': 'Controle de Qualidade', 'duration': 23}, {'reason': 'Troca de Sabor', 'duration': 21}]"
+2026-01-02,LINHA_C,Leite Fermentado,3,480,451,29,22912,975,21937,0.9396,0.8709,0.9574,0.7835,"[{'reason': 'Falha Elétrica', 'duration': 29}]"
+2026-01-03,LINHA_A,Iogurte Natural,1,480,403,77,29917,174,29743,0.8396,0.8908,0.9942,0.6692,"[{'reason': 'Troca de Sabor', 'duration': 42}, {'reason': 'Falha Elétrica', 'duration': 35}]"
+2026-01-03,LINHA_A,Iogurte Natural,2,480,435,45,33947,588,33359,0.9062,0.9365,0.9827,0.7506,"[{'reason': 'Troca de Sabor', 'duration': 45}]"
+2026-01-03,LINHA_A,Iogurte Natural,3,480,392,88,27820,310,27510,0.8167,0.8516,0.9889,0.619,"[{'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Falha Elétrica', 'duration': 59}]"
+2026-01-03,LINHA_B,Iogurte Grego,1,480,192,288,11216,517,10699,0.4,0.8762,0.9539,0.3009,"[{'reason': 'Falha Elétrica', 'duration': 39}, {'reason': 'Falta de Matéria-Prima', 'duration': 134}, {'reason': 'Falta de Matéria-Prima', 'duration': 79}, {'reason': 'Falha Elétrica', 'duration': 36}]"
+2026-01-03,LINHA_B,Iogurte Grego,2,480,453,27,28020,199,27821,0.9437,0.9278,0.9929,0.7825,"[{'reason': 'Troca de Sabor', 'duration': 27}]"
+2026-01-03,LINHA_B,Iogurte Grego,3,480,480,0,30742,268,30474,1.0,0.9607,0.9913,0.8571,[]
+2026-01-03,LINHA_C,Leite Fermentado,1,480,480,0,25435,457,24978,1.0,0.9084,0.982,0.8029,[]
+2026-01-03,LINHA_C,Leite Fermentado,2,480,350,130,19088,504,18584,0.7292,0.9349,0.9736,0.5973,"[{'reason': 'Falha Elétrica', 'duration': 51}, {'reason': 'Manutenção Preventiva', 'duration': 79}]"
+2026-01-03,LINHA_C,Leite Fermentado,3,480,295,185,14707,247,14460,0.6146,0.8546,0.9832,0.4648,"[{'reason': 'Manutenção Preventiva', 'duration': 99}, {'reason': 'Troca de Sabor', 'duration': 44}, {'reason': 'Falha Elétrica', 'duration': 42}]"
+2026-01-04,LINHA_A,Iogurte Natural,1,480,463,17,35668,1136,34532,0.9646,0.9244,0.9682,0.777,"[{'reason': 'Troca de Sabor', 'duration': 17}]"
+2026-01-04,LINHA_A,Iogurte Natural,2,480,452,28,32441,1225,31216,0.9417,0.8613,0.9622,0.7024,"[{'reason': 'Falha Elétrica', 'duration': 13}, {'reason': 'Controle de Qualidade', 'duration': 15}]"
+2026-01-04,LINHA_A,Iogurte Natural,3,480,432,48,31930,1336,30594,0.9,0.8869,0.9582,0.6884,"[{'reason': 'Troca de Sabor', 'duration': 23}, {'reason': 'Falha Elétrica', 'duration': 25}]"
+2026-01-04,LINHA_B,Iogurte Grego,1,480,354,126,22149,470,21679,0.7375,0.9385,0.9788,0.6097,"[{'reason': 'Falta de Matéria-Prima', 'duration': 126}]"
+2026-01-04,LINHA_B,Iogurte Grego,2,480,480,0,31603,352,31251,1.0,0.9876,0.9889,0.8789,[]
+2026-01-04,LINHA_B,Iogurte Grego,3,480,458,22,28435,1259,27176,0.9542,0.9313,0.9557,0.7643,"[{'reason': 'Falha Elétrica', 'duration': 22}]"
+2026-01-04,LINHA_C,Leite Fermentado,1,480,331,149,17829,266,17563,0.6896,0.9234,0.9851,0.5645,"[{'reason': 'Falha Elétrica', 'duration': 21}, {'reason': 'Limpeza CIP', 'duration': 45}, {'reason': 'Troca de Sabor', 'duration': 38}, {'reason': 'Troca de Sabor', 'duration': 45}]"
+2026-01-04,LINHA_C,Leite Fermentado,2,480,250,230,13939,650,13289,0.5208,0.9558,0.9534,0.4271,"[{'reason': 'Falta de Matéria-Prima', 'duration': 176}, {'reason': 'Limpeza CIP', 'duration': 54}]"
+2026-01-04,LINHA_C,Leite Fermentado,3,480,480,0,26185,1209,24976,1.0,0.9352,0.9538,0.8028,[]
+2026-01-05,LINHA_A,Iogurte Natural,1,480,480,0,38184,701,37483,1.0,0.9546,0.9816,0.9371,[]
+2026-01-05,LINHA_A,Iogurte Natural,2,480,171,309,13884,92,13792,0.3563,0.9743,0.9934,0.3448,"[{'reason': 'Troca de Sabor', 'duration': 39}, {'reason': 'Troca de Sabor', 'duration': 45}, {'reason': 'Falta de Matéria-Prima', 'duration': 61}, {'reason': 'Troca de Sabor', 'duration': 34}, {'reason': 'Manutenção Preventiva', 'duration': 50}, {'reason': 'Manutenção Preventiva', 'duration': 80}]"
+2026-01-05,LINHA_A,Iogurte Natural,3,480,432,48,31251,264,30987,0.9,0.8681,0.9916,0.7747,"[{'reason': 'Limpeza CIP', 'duration': 48}]"
+2026-01-05,LINHA_B,Iogurte Grego,1,480,322,158,18457,354,18103,0.6708,0.8598,0.9808,0.5657,"[{'reason': 'Falta de Matéria-Prima', 'duration': 129}, {'reason': 'Ajuste de Equipamento', 'duration': 29}]"
+2026-01-05,LINHA_B,Iogurte Grego,2,480,383,97,24100,1081,23019,0.7979,0.9439,0.9551,0.7193,"[{'reason': 'Manutenção Preventiva', 'duration': 97}]"
+2026-01-05,LINHA_B,Iogurte Grego,3,480,426,54,24243,1070,23173,0.8875,0.8536,0.9559,0.7242,"[{'reason': 'Limpeza CIP', 'duration': 54}]"
+2026-01-05,LINHA_C,Leite Fermentado,1,480,480,0,27473,791,26682,1.0,0.9812,0.9712,0.9529,[]
+2026-01-05,LINHA_C,Leite Fermentado,2,480,306,174,16248,432,15816,0.6375,0.9103,0.9734,0.5649,"[{'reason': 'Manutenção Preventiva', 'duration': 59}, {'reason': 'Limpeza CIP', 'duration': 48}, {'reason': 'Troca de Sabor', 'duration': 44}, {'reason': 'Ajuste de Equipamento', 'duration': 23}]"
+2026-01-05,LINHA_C,Leite Fermentado,3,480,359,121,19124,730,18394,0.7479,0.9132,0.9618,0.6569,"[{'reason': 'Falha Elétrica', 'duration': 30}, {'reason': 'Falta de Matéria-Prima', 'duration': 29}, {'reason': 'Falta de Matéria-Prima', 'duration': 36}, {'reason': 'Ajuste de Equipamento', 'duration': 26}]"
+2026-01-06,LINHA_A,Iogurte Natural,1,480,425,55,31988,573,31415,0.8854,0.9032,0.9821,0.7854,"[{'reason': 'Limpeza CIP', 'duration': 55}]"
+2026-01-06,LINHA_A,Iogurte Natural,2,480,454,26,32397,188,32209,0.9458,0.8563,0.9942,0.8052,"[{'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-01-06,LINHA_A,Iogurte Natural,3,480,433,47,34349,509,33840,0.9021,0.9519,0.9852,0.846,"[{'reason': 'Falha Elétrica', 'duration': 47}]"
+2026-01-06,LINHA_B,Iogurte Grego,1,480,434,46,26405,1176,25229,0.9042,0.9126,0.9555,0.7884,"[{'reason': 'Limpeza CIP', 'duration': 46}]"
+2026-01-06,LINHA_B,Iogurte Grego,2,480,368,112,24500,377,24123,0.7667,0.9986,0.9846,0.7538,"[{'reason': 'Troca de Sabor', 'duration': 42}, {'reason': 'Falha Elétrica', 'duration': 57}, {'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-01-06,LINHA_B,Iogurte Grego,3,480,422,58,24886,322,24564,0.8792,0.8846,0.9871,0.7676,"[{'reason': 'Falha Elétrica', 'duration': 28}, {'reason': 'Controle de Qualidade', 'duration': 14}, {'reason': 'Falha Elétrica', 'duration': 16}]"
+2026-01-06,LINHA_C,Leite Fermentado,1,480,480,0,24583,985,23598,1.0,0.878,0.9599,0.8428,[]
+2026-01-06,LINHA_C,Leite Fermentado,2,480,456,24,26476,1185,25291,0.95,0.9953,0.9552,0.9032,"[{'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2026-01-06,LINHA_C,Leite Fermentado,3,480,399,81,21167,828,20339,0.8313,0.9094,0.9609,0.7264,"[{'reason': 'Controle de Qualidade', 'duration': 24}, {'reason': 'Falha Elétrica', 'duration': 57}]"
+2026-01-07,LINHA_A,Iogurte Natural,1,480,465,15,37679,568,37111,0.9688,0.9724,0.9849,0.9278,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-01-07,LINHA_A,Iogurte Natural,2,480,448,32,35053,1090,33963,0.9333,0.9389,0.9689,0.8491,"[{'reason': 'Falta de Matéria-Prima', 'duration': 32}]"
+2026-01-07,LINHA_A,Iogurte Natural,3,480,480,0,39264,665,38599,1.0,0.9816,0.9831,0.965,[]
+2026-01-07,LINHA_B,Iogurte Grego,1,480,480,0,31465,1510,29955,1.0,0.9833,0.952,0.9361,[]
+2026-01-07,LINHA_B,Iogurte Grego,2,480,277,203,16828,366,16462,0.5771,0.9113,0.9783,0.5144,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}, {'reason': 'Falta de Matéria-Prima', 'duration': 128}, {'reason': 'Falha Elétrica', 'duration': 26}, {'reason': 'Troca de Sabor', 'duration': 30}]"
+2026-01-07,LINHA_B,Iogurte Grego,3,480,480,0,29580,255,29325,1.0,0.9244,0.9914,0.9164,[]
+2026-01-07,LINHA_C,Leite Fermentado,1,480,480,0,26669,224,26445,1.0,0.9525,0.9916,0.9445,[]
+2026-01-07,LINHA_C,Leite Fermentado,2,480,298,182,16320,687,15633,0.6208,0.9388,0.9579,0.5583,"[{'reason': 'Manutenção Preventiva', 'duration': 82}, {'reason': 'Falta de Matéria-Prima', 'duration': 100}]"
+2026-01-07,LINHA_C,Leite Fermentado,3,480,441,39,22896,1019,21877,0.9187,0.89,0.9555,0.7813,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}, {'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2026-01-08,LINHA_A,Iogurte Natural,1,480,124,356,9837,323,9514,0.2583,0.952,0.9672,0.2379,"[{'reason': 'Ajuste de Equipamento', 'duration': 22}, {'reason': 'Troca de Sabor', 'duration': 31}, {'reason': 'Falta de Matéria-Prima', 'duration': 31}, {'reason': 'Falta de Matéria-Prima', 'duration': 114}, {'reason': 'Controle de Qualidade', 'duration': 27}, {'reason': 'Falta de Matéria-Prima', 'duration': 131}]"
+2026-01-08,LINHA_A,Iogurte Natural,2,480,456,24,37320,1650,35670,0.95,0.9821,0.9558,0.8918,"[{'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-01-08,LINHA_A,Iogurte Natural,3,480,480,0,38954,420,38534,1.0,0.9739,0.9892,0.9634,[]
+2026-01-08,LINHA_B,Iogurte Grego,1,480,451,29,29245,1241,28004,0.9396,0.9727,0.9576,0.8751,"[{'reason': 'Troca de Sabor', 'duration': 17}, {'reason': 'Ajuste de Equipamento', 'duration': 12}]"
+2026-01-08,LINHA_B,Iogurte Grego,2,480,431,49,25660,840,24820,0.8979,0.893,0.9673,0.7756,"[{'reason': 'Falha Elétrica', 'duration': 49}]"
+2026-01-08,LINHA_B,Iogurte Grego,3,480,392,88,24698,723,23975,0.8167,0.9451,0.9707,0.7492,"[{'reason': 'Falta de Matéria-Prima', 'duration': 88}]"
+2026-01-08,LINHA_C,Leite Fermentado,1,480,453,27,25477,747,24730,0.9437,0.9641,0.9707,0.8832,"[{'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-01-08,LINHA_C,Leite Fermentado,2,480,428,52,24712,237,24475,0.8917,0.9898,0.9904,0.8741,"[{'reason': 'Falha Elétrica', 'duration': 52}]"
+2026-01-08,LINHA_C,Leite Fermentado,3,480,480,0,25064,924,24140,1.0,0.8951,0.9631,0.8621,[]
+2026-01-09,LINHA_A,Iogurte Natural,1,480,480,0,37493,771,36722,1.0,0.9373,0.9794,0.9181,[]
+2026-01-09,LINHA_A,Iogurte Natural,2,480,462,18,37758,1842,35916,0.9625,0.9807,0.9512,0.8979,"[{'reason': 'Controle de Qualidade', 'duration': 18}]"
+2026-01-09,LINHA_A,Iogurte Natural,3,480,427,53,34293,209,34084,0.8896,0.9637,0.9939,0.8521,"[{'reason': 'Ajuste de Equipamento', 'duration': 13}, {'reason': 'Falta de Matéria-Prima', 'duration': 40}]"
+2026-01-09,LINHA_B,Iogurte Grego,1,480,480,0,28753,776,27977,1.0,0.8985,0.973,0.8743,[]
+2026-01-09,LINHA_B,Iogurte Grego,2,480,293,187,19524,472,19052,0.6104,0.9995,0.9758,0.5954,"[{'reason': 'Falta de Matéria-Prima', 'duration': 90}, {'reason': 'Limpeza CIP', 'duration': 53}, {'reason': 'Manutenção Preventiva', 'duration': 44}]"
+2026-01-09,LINHA_B,Iogurte Grego,3,480,347,133,22421,811,21610,0.7229,0.9692,0.9638,0.6753,"[{'reason': 'Falta de Matéria-Prima', 'duration': 133}]"
+2026-01-09,LINHA_C,Leite Fermentado,1,480,480,0,24146,860,23286,1.0,0.8624,0.9644,0.8316,[]
+2026-01-09,LINHA_C,Leite Fermentado,2,480,452,28,26172,308,25864,0.9417,0.9926,0.9882,0.9237,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}]"
+2026-01-09,LINHA_C,Leite Fermentado,3,480,387,93,21350,488,20862,0.8063,0.9457,0.9771,0.7451,"[{'reason': 'Ajuste de Equipamento', 'duration': 8}, {'reason': 'Falta de Matéria-Prima', 'duration': 85}]"
+2026-01-10,LINHA_A,Iogurte Natural,1,480,320,160,26243,402,25841,0.6667,0.9841,0.9847,0.5814,"[{'reason': 'Falta de Matéria-Prima', 'duration': 102}, {'reason': 'Manutenção Preventiva', 'duration': 58}]"
+2026-01-10,LINHA_A,Iogurte Natural,2,480,480,0,34186,1173,33013,1.0,0.8547,0.9657,0.7428,[]
+2026-01-10,LINHA_A,Iogurte Natural,3,480,388,92,32179,429,31750,0.8083,0.9952,0.9867,0.7144,"[{'reason': 'Troca de Sabor', 'duration': 37}, {'reason': 'Manutenção Preventiva', 'duration': 55}]"
+2026-01-10,LINHA_B,Iogurte Grego,1,480,290,190,16813,108,16705,0.6042,0.8696,0.9936,0.4698,"[{'reason': 'Troca de Sabor', 'duration': 16}, {'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Manutenção Preventiva', 'duration': 101}, {'reason': 'Controle de Qualidade', 'duration': 13}, {'reason': 'Troca de Sabor', 'duration': 33}]"
+2026-01-10,LINHA_B,Iogurte Grego,2,480,436,44,25218,268,24950,0.9083,0.8676,0.9894,0.7017,"[{'reason': 'Ajuste de Equipamento', 'duration': 20}, {'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-01-10,LINHA_B,Iogurte Grego,3,480,434,46,26726,210,26516,0.9042,0.9237,0.9921,0.7458,"[{'reason': 'Manutenção Preventiva', 'duration': 26}, {'reason': 'Ajuste de Equipamento', 'duration': 20}]"
+2026-01-10,LINHA_C,Leite Fermentado,1,480,424,56,23982,454,23528,0.8833,0.9696,0.9811,0.7563,"[{'reason': 'Limpeza CIP', 'duration': 56}]"
+2026-01-10,LINHA_C,Leite Fermentado,2,480,438,42,21995,498,21497,0.9125,0.8609,0.9774,0.691,"[{'reason': 'Limpeza CIP', 'duration': 42}]"
+2026-01-10,LINHA_C,Leite Fermentado,3,480,449,31,24993,1092,23901,0.9354,0.9542,0.9563,0.7682,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Troca de Sabor', 'duration': 19}]"
+2026-01-11,LINHA_A,Iogurte Natural,1,480,388,92,29813,289,29524,0.8083,0.9221,0.9903,0.6643,"[{'reason': 'Manutenção Preventiva', 'duration': 92}]"
+2026-01-11,LINHA_A,Iogurte Natural,2,480,433,47,33371,1095,32276,0.9021,0.9248,0.9672,0.7262,"[{'reason': 'Ajuste de Equipamento', 'duration': 7}, {'reason': 'Falta de Matéria-Prima', 'duration': 40}]"
+2026-01-11,LINHA_A,Iogurte Natural,3,480,294,186,22024,623,21401,0.6125,0.8989,0.9717,0.4815,"[{'reason': 'Falha Elétrica', 'duration': 43}, {'reason': 'Falta de Matéria-Prima', 'duration': 143}]"
+2026-01-11,LINHA_B,Iogurte Grego,1,480,480,0,28883,187,28696,1.0,0.9026,0.9935,0.8071,[]
+2026-01-11,LINHA_B,Iogurte Grego,2,480,480,0,29105,319,28786,1.0,0.9095,0.989,0.8096,[]
+2026-01-11,LINHA_B,Iogurte Grego,3,480,404,76,23569,228,23341,0.8417,0.8751,0.9903,0.6565,"[{'reason': 'Falha Elétrica', 'duration': 33}, {'reason': 'Controle de Qualidade', 'duration': 19}, {'reason': 'Falha Elétrica', 'duration': 24}]"
+2026-01-11,LINHA_C,Leite Fermentado,1,480,386,94,22301,163,22138,0.8042,0.9904,0.9927,0.7116,"[{'reason': 'Troca de Sabor', 'duration': 34}, {'reason': 'Limpeza CIP', 'duration': 60}]"
+2026-01-11,LINHA_C,Leite Fermentado,2,480,144,336,7567,315,7252,0.3,0.9008,0.9584,0.2331,"[{'reason': 'Falta de Matéria-Prima', 'duration': 170}, {'reason': 'Falta de Matéria-Prima', 'duration': 77}, {'reason': 'Limpeza CIP', 'duration': 35}, {'reason': 'Falta de Matéria-Prima', 'duration': 54}]"
+2026-01-11,LINHA_C,Leite Fermentado,3,480,480,0,27558,816,26742,1.0,0.9842,0.9704,0.8596,[]
+2026-01-12,LINHA_A,Iogurte Natural,1,480,388,92,31031,269,30762,0.8083,0.9597,0.9913,0.7691,"[{'reason': 'Limpeza CIP', 'duration': 35}, {'reason': 'Troca de Sabor', 'duration': 28}, {'reason': 'Controle de Qualidade', 'duration': 29}]"
+2026-01-12,LINHA_A,Iogurte Natural,2,480,480,0,35482,432,35050,1.0,0.8871,0.9878,0.8763,[]
+2026-01-12,LINHA_A,Iogurte Natural,3,480,461,19,38277,771,37506,0.9604,0.9964,0.9799,0.9377,"[{'reason': 'Controle de Qualidade', 'duration': 19}]"
+2026-01-12,LINHA_B,Iogurte Grego,1,480,480,0,30990,1073,29917,1.0,0.9684,0.9654,0.9349,[]
+2026-01-12,LINHA_B,Iogurte Grego,2,480,431,49,25407,1266,24141,0.8979,0.8842,0.9502,0.7544,"[{'reason': 'Troca de Sabor', 'duration': 22}, {'reason': 'Ajuste de Equipamento', 'duration': 27}]"
+2026-01-12,LINHA_B,Iogurte Grego,3,480,441,39,27989,230,27759,0.9187,0.952,0.9918,0.8675,"[{'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Controle de Qualidade', 'duration': 12}]"
+2026-01-12,LINHA_C,Leite Fermentado,1,480,480,0,24882,642,24240,1.0,0.8886,0.9742,0.8657,[]
+2026-01-12,LINHA_C,Leite Fermentado,2,480,238,242,12521,271,12250,0.4958,0.9019,0.9784,0.4375,"[{'reason': 'Falta de Matéria-Prima', 'duration': 77}, {'reason': 'Falta de Matéria-Prima', 'duration': 118}, {'reason': 'Limpeza CIP', 'duration': 47}]"
+2026-01-12,LINHA_C,Leite Fermentado,3,480,305,175,17436,541,16895,0.6354,0.98,0.969,0.6034,"[{'reason': 'Falta de Matéria-Prima', 'duration': 175}]"
+2026-01-13,LINHA_A,Iogurte Natural,1,480,397,83,32455,1477,30978,0.8271,0.981,0.9545,0.7744,"[{'reason': 'Manutenção Preventiva', 'duration': 54}, {'reason': 'Manutenção Preventiva', 'duration': 29}]"
+2026-01-13,LINHA_A,Iogurte Natural,2,480,460,20,35989,1657,34332,0.9583,0.9388,0.954,0.8583,"[{'reason': 'Troca de Sabor', 'duration': 20}]"
+2026-01-13,LINHA_A,Iogurte Natural,3,480,480,0,37737,1261,36476,1.0,0.9434,0.9666,0.9119,[]
+2026-01-13,LINHA_B,Iogurte Grego,1,480,456,24,29104,1336,27768,0.95,0.9574,0.9541,0.8677,"[{'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2026-01-13,LINHA_B,Iogurte Grego,2,480,480,0,28340,1380,26960,1.0,0.8856,0.9513,0.8425,[]
+2026-01-13,LINHA_B,Iogurte Grego,3,480,480,0,31301,849,30452,1.0,0.9782,0.9729,0.9516,[]
+2026-01-13,LINHA_C,Leite Fermentado,1,480,461,19,24654,694,23960,0.9604,0.9168,0.9719,0.8557,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}]"
+2026-01-13,LINHA_C,Leite Fermentado,2,480,436,44,22242,502,21740,0.9083,0.8745,0.9774,0.7764,"[{'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-01-13,LINHA_C,Leite Fermentado,3,480,431,49,22596,899,21697,0.8979,0.8987,0.9602,0.7749,"[{'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Falha Elétrica', 'duration': 22}]"
+2026-01-14,LINHA_A,Iogurte Natural,1,480,480,0,39818,1012,38806,1.0,0.9955,0.9746,0.9701,[]
+2026-01-14,LINHA_A,Iogurte Natural,2,480,456,24,33267,944,32323,0.95,0.8754,0.9716,0.8081,"[{'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-01-14,LINHA_A,Iogurte Natural,3,480,388,92,28689,940,27749,0.8083,0.8873,0.9672,0.6937,"[{'reason': 'Limpeza CIP', 'duration': 49}, {'reason': 'Troca de Sabor', 'duration': 43}]"
+2026-01-14,LINHA_B,Iogurte Grego,1,480,428,52,24970,166,24804,0.8917,0.8751,0.9934,0.7751,"[{'reason': 'Falha Elétrica', 'duration': 52}]"
+2026-01-14,LINHA_B,Iogurte Grego,2,480,438,42,28348,888,27460,0.9125,0.9708,0.9687,0.8581,"[{'reason': 'Ajuste de Equipamento', 'duration': 5}, {'reason': 'Limpeza CIP', 'duration': 37}]"
+2026-01-14,LINHA_B,Iogurte Grego,3,480,441,39,25483,436,25047,0.9187,0.8668,0.9829,0.7827,"[{'reason': 'Troca de Sabor', 'duration': 39}]"
+2026-01-14,LINHA_C,Leite Fermentado,1,480,480,0,26030,1227,24803,1.0,0.9296,0.9529,0.8858,[]
+2026-01-14,LINHA_C,Leite Fermentado,2,480,480,0,24312,616,23696,1.0,0.8683,0.9747,0.8463,[]
+2026-01-14,LINHA_C,Leite Fermentado,3,480,418,62,20877,243,20634,0.8708,0.8562,0.9884,0.7369,"[{'reason': 'Ajuste de Equipamento', 'duration': 23}, {'reason': 'Troca de Sabor', 'duration': 39}]"
+2026-01-15,LINHA_A,Iogurte Natural,1,480,382,98,31603,1066,30537,0.7958,0.9928,0.9663,0.7634,"[{'reason': 'Manutenção Preventiva', 'duration': 80}, {'reason': 'Controle de Qualidade', 'duration': 18}]"
+2026-01-15,LINHA_A,Iogurte Natural,2,480,341,139,26237,918,25319,0.7104,0.9233,0.965,0.633,"[{'reason': 'Manutenção Preventiva', 'duration': 94}, {'reason': 'Falha Elétrica', 'duration': 45}]"
+2026-01-15,LINHA_A,Iogurte Natural,3,480,480,0,34179,644,33535,1.0,0.8545,0.9812,0.8384,[]
+2026-01-15,LINHA_B,Iogurte Grego,1,480,468,12,29671,1443,28228,0.975,0.951,0.9514,0.8821,"[{'reason': 'Controle de Qualidade', 'duration': 12}]"
+2026-01-15,LINHA_B,Iogurte Grego,2,480,480,0,30428,759,29669,1.0,0.9509,0.9751,0.9272,[]
+2026-01-15,LINHA_B,Iogurte Grego,3,480,459,21,29189,1246,27943,0.9563,0.9539,0.9573,0.8732,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-01-15,LINHA_C,Leite Fermentado,1,480,397,83,22702,696,22006,0.8271,0.9803,0.9693,0.7859,"[{'reason': 'Falha Elétrica', 'duration': 26}, {'reason': 'Limpeza CIP', 'duration': 57}]"
+2026-01-15,LINHA_C,Leite Fermentado,2,480,480,0,27709,998,26711,1.0,0.9896,0.964,0.954,[]
+2026-01-15,LINHA_C,Leite Fermentado,3,480,418,62,23135,525,22610,0.8708,0.9488,0.9773,0.8075,"[{'reason': 'Manutenção Preventiva', 'duration': 62}]"
+2026-01-16,LINHA_A,Iogurte Natural,1,480,431,49,34073,1702,32371,0.8979,0.9487,0.95,0.8093,"[{'reason': 'Falha Elétrica', 'duration': 49}]"
+2026-01-16,LINHA_A,Iogurte Natural,2,480,480,0,39863,929,38934,1.0,0.9966,0.9767,0.9734,[]
+2026-01-16,LINHA_A,Iogurte Natural,3,480,320,160,23974,840,23134,0.6667,0.899,0.965,0.5784,"[{'reason': 'Controle de Qualidade', 'duration': 19}, {'reason': 'Falha Elétrica', 'duration': 57}, {'reason': 'Troca de Sabor', 'duration': 29}, {'reason': 'Limpeza CIP', 'duration': 40}, {'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-01-16,LINHA_B,Iogurte Grego,1,480,330,150,21398,222,21176,0.6875,0.9726,0.9896,0.6618,"[{'reason': 'Limpeza CIP', 'duration': 54}, {'reason': 'Falha Elétrica', 'duration': 60}, {'reason': 'Troca de Sabor', 'duration': 36}]"
+2026-01-16,LINHA_B,Iogurte Grego,2,480,457,23,27380,588,26792,0.9521,0.8987,0.9785,0.8372,"[{'reason': 'Controle de Qualidade', 'duration': 23}]"
+2026-01-16,LINHA_B,Iogurte Grego,3,480,459,21,28069,440,27629,0.9563,0.9173,0.9843,0.8634,"[{'reason': 'Troca de Sabor', 'duration': 21}]"
+2026-01-16,LINHA_C,Leite Fermentado,1,480,450,30,22600,726,21874,0.9375,0.861,0.9679,0.7812,"[{'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-01-16,LINHA_C,Leite Fermentado,2,480,391,89,20686,907,19779,0.8146,0.9069,0.9562,0.7064,"[{'reason': 'Controle de Qualidade', 'duration': 11}, {'reason': 'Falta de Matéria-Prima', 'duration': 78}]"
+2026-01-16,LINHA_C,Leite Fermentado,3,480,399,81,20975,463,20512,0.8313,0.9012,0.9779,0.7326,"[{'reason': 'Manutenção Preventiva', 'duration': 56}, {'reason': 'Controle de Qualidade', 'duration': 25}]"
+2026-01-17,LINHA_A,Iogurte Natural,1,480,400,80,31372,1236,30136,0.8333,0.9412,0.9606,0.6781,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Falta de Matéria-Prima', 'duration': 50}]"
+2026-01-17,LINHA_A,Iogurte Natural,2,480,416,64,30484,162,30322,0.8667,0.8793,0.9947,0.6822,"[{'reason': 'Ajuste de Equipamento', 'duration': 22}, {'reason': 'Troca de Sabor', 'duration': 32}, {'reason': 'Falha Elétrica', 'duration': 10}]"
+2026-01-17,LINHA_A,Iogurte Natural,3,480,428,52,35276,272,35004,0.8917,0.989,0.9923,0.7876,"[{'reason': 'Falta de Matéria-Prima', 'duration': 39}, {'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-01-17,LINHA_B,Iogurte Grego,1,480,376,104,23133,382,22751,0.7833,0.9229,0.9835,0.6399,"[{'reason': 'Manutenção Preventiva', 'duration': 83}, {'reason': 'Ajuste de Equipamento', 'duration': 21}]"
+2026-01-17,LINHA_B,Iogurte Grego,2,480,462,18,29889,874,29015,0.9625,0.9704,0.9708,0.816,"[{'reason': 'Ajuste de Equipamento', 'duration': 18}]"
+2026-01-17,LINHA_B,Iogurte Grego,3,480,455,25,29041,501,28540,0.9479,0.9574,0.9827,0.8027,"[{'reason': 'Controle de Qualidade', 'duration': 25}]"
+2026-01-17,LINHA_C,Leite Fermentado,1,480,354,126,18113,645,17468,0.7375,0.8771,0.9644,0.5615,"[{'reason': 'Falta de Matéria-Prima', 'duration': 126}]"
+2026-01-17,LINHA_C,Leite Fermentado,2,480,480,0,26005,959,25046,1.0,0.9287,0.9631,0.805,[]
+2026-01-17,LINHA_C,Leite Fermentado,3,480,480,0,26182,433,25749,1.0,0.9351,0.9835,0.8276,[]
+2026-01-18,LINHA_A,Iogurte Natural,1,480,220,260,15702,525,15177,0.4583,0.8565,0.9666,0.3415,"[{'reason': 'Manutenção Preventiva', 'duration': 69}, {'reason': 'Falta de Matéria-Prima', 'duration': 163}, {'reason': 'Manutenção Preventiva', 'duration': 28}]"
+2026-01-18,LINHA_A,Iogurte Natural,2,480,392,88,28805,935,27870,0.8167,0.8818,0.9675,0.6271,"[{'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Falha Elétrica', 'duration': 26}, {'reason': 'Ajuste de Equipamento', 'duration': 5}, {'reason': 'Ajuste de Equipamento', 'duration': 28}]"
+2026-01-18,LINHA_A,Iogurte Natural,3,480,416,64,30698,1231,29467,0.8667,0.8855,0.9599,0.663,"[{'reason': 'Ajuste de Equipamento', 'duration': 23}, {'reason': 'Controle de Qualidade', 'duration': 14}, {'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-01-18,LINHA_B,Iogurte Grego,1,480,459,21,29074,270,28804,0.9563,0.9501,0.9907,0.8101,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-01-18,LINHA_B,Iogurte Grego,2,480,446,34,26022,992,25030,0.9292,0.8752,0.9619,0.704,"[{'reason': 'Falha Elétrica', 'duration': 34}]"
+2026-01-18,LINHA_B,Iogurte Grego,3,480,409,71,23568,142,23426,0.8521,0.8644,0.994,0.6589,"[{'reason': 'Falta de Matéria-Prima', 'duration': 71}]"
+2026-01-18,LINHA_C,Leite Fermentado,1,480,454,26,23432,529,22903,0.9458,0.8848,0.9774,0.7362,"[{'reason': 'Falha Elétrica', 'duration': 19}, {'reason': 'Falha Elétrica', 'duration': 7}]"
+2026-01-18,LINHA_C,Leite Fermentado,2,480,411,69,22878,530,22348,0.8562,0.9542,0.9768,0.7183,"[{'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Falha Elétrica', 'duration': 47}]"
+2026-01-18,LINHA_C,Leite Fermentado,3,480,378,102,22021,237,21784,0.7875,0.9987,0.9892,0.7002,"[{'reason': 'Manutenção Preventiva', 'duration': 83}, {'reason': 'Troca de Sabor', 'duration': 19}]"
+2026-01-19,LINHA_A,Iogurte Natural,1,480,480,0,38346,1189,37157,1.0,0.9587,0.969,0.9289,[]
+2026-01-19,LINHA_A,Iogurte Natural,2,480,480,0,34513,1561,32952,1.0,0.8628,0.9548,0.8238,[]
+2026-01-19,LINHA_A,Iogurte Natural,3,480,480,0,35940,546,35394,1.0,0.8985,0.9848,0.8849,[]
+2026-01-19,LINHA_B,Iogurte Grego,1,480,423,57,26165,210,25955,0.8812,0.9278,0.992,0.8111,"[{'reason': 'Limpeza CIP', 'duration': 57}]"
+2026-01-19,LINHA_B,Iogurte Grego,2,480,467,13,28985,1292,27693,0.9729,0.931,0.9554,0.8654,"[{'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-01-19,LINHA_B,Iogurte Grego,3,480,398,82,23878,838,23040,0.8292,0.8999,0.9649,0.72,"[{'reason': 'Controle de Qualidade', 'duration': 10}, {'reason': 'Manutenção Preventiva', 'duration': 72}]"
+2026-01-19,LINHA_C,Leite Fermentado,1,480,387,93,19392,587,18805,0.8063,0.859,0.9697,0.6716,"[{'reason': 'Manutenção Preventiva', 'duration': 29}, {'reason': 'Controle de Qualidade', 'duration': 18}, {'reason': 'Falha Elétrica', 'duration': 46}]"
+2026-01-19,LINHA_C,Leite Fermentado,2,480,423,57,23527,330,23197,0.8812,0.9535,0.986,0.8285,"[{'reason': 'Limpeza CIP', 'duration': 57}]"
+2026-01-19,LINHA_C,Leite Fermentado,3,480,480,0,25691,1002,24689,1.0,0.9175,0.961,0.8817,[]
+2026-01-20,LINHA_A,Iogurte Natural,1,480,428,52,35277,548,34729,0.8917,0.9891,0.9845,0.8682,"[{'reason': 'Falha Elétrica', 'duration': 25}, {'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-01-20,LINHA_A,Iogurte Natural,2,480,446,34,37124,1734,35390,0.9292,0.9989,0.9533,0.8848,"[{'reason': 'Troca de Sabor', 'duration': 34}]"
+2026-01-20,LINHA_A,Iogurte Natural,3,480,388,92,27915,1088,26827,0.8083,0.8634,0.961,0.6707,"[{'reason': 'Limpeza CIP', 'duration': 37}, {'reason': 'Ajuste de Equipamento', 'duration': 12}, {'reason': 'Limpeza CIP', 'duration': 43}]"
+2026-01-20,LINHA_B,Iogurte Grego,1,480,480,0,31165,1252,29913,1.0,0.9739,0.9598,0.9348,[]
+2026-01-20,LINHA_B,Iogurte Grego,2,480,426,54,25431,428,25003,0.8875,0.8955,0.9832,0.7813,"[{'reason': 'Limpeza CIP', 'duration': 54}]"
+2026-01-20,LINHA_B,Iogurte Grego,3,480,436,44,28791,861,27930,0.9083,0.9905,0.9701,0.8728,"[{'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-01-20,LINHA_C,Leite Fermentado,1,480,372,108,19900,637,19263,0.775,0.9171,0.968,0.688,"[{'reason': 'Manutenção Preventiva', 'duration': 108}]"
+2026-01-20,LINHA_C,Leite Fermentado,2,480,426,54,21899,1026,20873,0.8875,0.8812,0.9531,0.7455,"[{'reason': 'Ajuste de Equipamento', 'duration': 5}, {'reason': 'Troca de Sabor', 'duration': 25}, {'reason': 'Troca de Sabor', 'duration': 24}]"
+2026-01-20,LINHA_C,Leite Fermentado,3,480,480,0,27233,602,26631,1.0,0.9726,0.9779,0.9511,[]
+2026-01-21,LINHA_A,Iogurte Natural,1,480,280,200,20116,465,19651,0.5833,0.8621,0.9769,0.4913,"[{'reason': 'Falha Elétrica', 'duration': 14}, {'reason': 'Falta de Matéria-Prima', 'duration': 145}, {'reason': 'Falha Elétrica', 'duration': 41}]"
+2026-01-21,LINHA_A,Iogurte Natural,2,480,480,0,38169,785,37384,1.0,0.9542,0.9794,0.9346,[]
+2026-01-21,LINHA_A,Iogurte Natural,3,480,365,115,29787,1385,28402,0.7604,0.9793,0.9535,0.71,"[{'reason': 'Manutenção Preventiva', 'duration': 41}, {'reason': 'Manutenção Preventiva', 'duration': 30}, {'reason': 'Falha Elétrica', 'duration': 44}]"
+2026-01-21,LINHA_B,Iogurte Grego,1,480,264,216,16286,373,15913,0.55,0.9253,0.9771,0.4973,"[{'reason': 'Falta de Matéria-Prima', 'duration': 137}, {'reason': 'Manutenção Preventiva', 'duration': 49}, {'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-01-21,LINHA_B,Iogurte Grego,2,480,480,0,28964,233,28731,1.0,0.9051,0.992,0.8978,[]
+2026-01-21,LINHA_B,Iogurte Grego,3,480,480,0,27848,1346,26502,1.0,0.8702,0.9517,0.8282,[]
+2026-01-21,LINHA_C,Leite Fermentado,1,480,392,88,21172,524,20648,0.8167,0.9259,0.9753,0.7374,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}, {'reason': 'Ajuste de Equipamento', 'duration': 26}, {'reason': 'Troca de Sabor', 'duration': 43}]"
+2026-01-21,LINHA_C,Leite Fermentado,2,480,480,0,26491,389,26102,1.0,0.9461,0.9853,0.9322,[]
+2026-01-21,LINHA_C,Leite Fermentado,3,480,432,48,21651,868,20783,0.9,0.8592,0.9599,0.7422,"[{'reason': 'Controle de Qualidade', 'duration': 19}, {'reason': 'Manutenção Preventiva', 'duration': 29}]"
+2026-01-22,LINHA_A,Iogurte Natural,1,480,459,21,38220,290,37930,0.9563,0.9992,0.9924,0.9483,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-01-22,LINHA_A,Iogurte Natural,2,480,406,74,29480,308,29172,0.8458,0.8713,0.9896,0.7293,"[{'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Falha Elétrica', 'duration': 49}]"
+2026-01-22,LINHA_A,Iogurte Natural,3,480,461,19,36642,285,36357,0.9604,0.9538,0.9922,0.9089,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}]"
+2026-01-22,LINHA_B,Iogurte Grego,1,480,290,190,18242,523,17719,0.6042,0.9436,0.9713,0.5537,"[{'reason': 'Ajuste de Equipamento', 'duration': 11}, {'reason': 'Falha Elétrica', 'duration': 59}, {'reason': 'Controle de Qualidade', 'duration': 13}, {'reason': 'Falta de Matéria-Prima', 'duration': 107}]"
+2026-01-22,LINHA_B,Iogurte Grego,2,480,480,0,31455,793,30662,1.0,0.983,0.9748,0.9582,[]
+2026-01-22,LINHA_B,Iogurte Grego,3,480,480,0,28965,684,28281,1.0,0.9052,0.9764,0.8838,[]
+2026-01-22,LINHA_C,Leite Fermentado,1,480,426,54,22673,604,22069,0.8875,0.9124,0.9734,0.7882,"[{'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Ajuste de Equipamento', 'duration': 5}, {'reason': 'Falha Elétrica', 'duration': 22}]"
+2026-01-22,LINHA_C,Leite Fermentado,2,480,480,0,24891,976,23915,1.0,0.889,0.9608,0.8541,[]
+2026-01-22,LINHA_C,Leite Fermentado,3,480,480,0,26048,382,25666,1.0,0.9303,0.9853,0.9166,[]
+2026-01-23,LINHA_A,Iogurte Natural,1,480,480,0,35447,1733,33714,1.0,0.8862,0.9511,0.8428,[]
+2026-01-23,LINHA_A,Iogurte Natural,2,480,384,96,29830,759,29071,0.8,0.9322,0.9746,0.7268,"[{'reason': 'Troca de Sabor', 'duration': 33}, {'reason': 'Troca de Sabor', 'duration': 44}, {'reason': 'Controle de Qualidade', 'duration': 19}]"
+2026-01-23,LINHA_A,Iogurte Natural,3,480,315,165,24234,284,23950,0.6562,0.9232,0.9883,0.5988,"[{'reason': 'Falta de Matéria-Prima', 'duration': 165}]"
+2026-01-23,LINHA_B,Iogurte Grego,1,480,308,172,18611,423,18188,0.6417,0.9064,0.9773,0.5684,"[{'reason': 'Falta de Matéria-Prima', 'duration': 172}]"
+2026-01-23,LINHA_B,Iogurte Grego,2,480,104,376,6608,163,6445,0.2167,0.9531,0.9753,0.2014,"[{'reason': 'Falta de Matéria-Prima', 'duration': 168}, {'reason': 'Ajuste de Equipamento', 'duration': 26}, {'reason': 'Manutenção Preventiva', 'duration': 100}, {'reason': 'Limpeza CIP', 'duration': 58}, {'reason': 'Troca de Sabor', 'duration': 24}]"
+2026-01-23,LINHA_B,Iogurte Grego,3,480,469,11,26756,1219,25537,0.9771,0.8557,0.9544,0.798,"[{'reason': 'Controle de Qualidade', 'duration': 11}]"
+2026-01-23,LINHA_C,Leite Fermentado,1,480,449,31,25779,867,24912,0.9354,0.9842,0.9664,0.8897,"[{'reason': 'Manutenção Preventiva', 'duration': 31}]"
+2026-01-23,LINHA_C,Leite Fermentado,2,480,465,15,25165,295,24870,0.9688,0.9277,0.9883,0.8882,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-01-23,LINHA_C,Leite Fermentado,3,480,421,59,21186,788,20398,0.8771,0.8627,0.9628,0.7285,"[{'reason': 'Falha Elétrica', 'duration': 16}, {'reason': 'Falta de Matéria-Prima', 'duration': 43}]"
+2026-01-24,LINHA_A,Iogurte Natural,1,480,480,0,34427,190,34237,1.0,0.8607,0.9945,0.7703,[]
+2026-01-24,LINHA_A,Iogurte Natural,2,480,422,58,31736,1264,30472,0.8792,0.9024,0.9602,0.6856,"[{'reason': 'Ajuste de Equipamento', 'duration': 10}, {'reason': 'Ajuste de Equipamento', 'duration': 20}, {'reason': 'Ajuste de Equipamento', 'duration': 28}]"
+2026-01-24,LINHA_A,Iogurte Natural,3,480,480,0,35044,330,34714,1.0,0.8761,0.9906,0.7811,[]
+2026-01-24,LINHA_B,Iogurte Grego,1,480,402,78,22864,198,22666,0.8375,0.8531,0.9913,0.6375,"[{'reason': 'Limpeza CIP', 'duration': 44}, {'reason': 'Limpeza CIP', 'duration': 34}]"
+2026-01-24,LINHA_B,Iogurte Grego,2,480,369,111,23215,515,22700,0.7688,0.9437,0.9778,0.6384,"[{'reason': 'Falta de Matéria-Prima', 'duration': 111}]"
+2026-01-24,LINHA_B,Iogurte Grego,3,480,480,0,27782,907,26875,1.0,0.8682,0.9674,0.7559,[]
+2026-01-24,LINHA_C,Leite Fermentado,1,480,398,82,23106,946,22160,0.8292,0.9952,0.9591,0.7123,"[{'reason': 'Limpeza CIP', 'duration': 55}, {'reason': 'Falha Elétrica', 'duration': 5}, {'reason': 'Ajuste de Equipamento', 'duration': 22}]"
+2026-01-24,LINHA_C,Leite Fermentado,2,480,436,44,23840,921,22919,0.9083,0.9374,0.9614,0.7367,"[{'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-01-24,LINHA_C,Leite Fermentado,3,480,400,80,21017,982,20035,0.8333,0.9007,0.9533,0.644,"[{'reason': 'Ajuste de Equipamento', 'duration': 23}, {'reason': 'Falha Elétrica', 'duration': 57}]"
+2026-01-25,LINHA_A,Iogurte Natural,1,480,480,0,36592,906,35686,1.0,0.9148,0.9752,0.8029,[]
+2026-01-25,LINHA_A,Iogurte Natural,2,480,299,181,21633,300,21333,0.6229,0.8682,0.9861,0.48,"[{'reason': 'Limpeza CIP', 'duration': 51}, {'reason': 'Falta de Matéria-Prima', 'duration': 130}]"
+2026-01-25,LINHA_A,Iogurte Natural,3,480,446,34,36140,1581,34559,0.9292,0.9724,0.9563,0.7776,"[{'reason': 'Troca de Sabor', 'duration': 34}]"
+2026-01-25,LINHA_B,Iogurte Grego,1,480,255,225,16375,421,15954,0.5312,0.9632,0.9743,0.4487,"[{'reason': 'Falta de Matéria-Prima', 'duration': 175}, {'reason': 'Limpeza CIP', 'duration': 50}]"
+2026-01-25,LINHA_B,Iogurte Grego,2,480,400,80,24846,1225,23621,0.8333,0.9317,0.9507,0.6643,"[{'reason': 'Controle de Qualidade', 'duration': 19}, {'reason': 'Falha Elétrica', 'duration': 12}, {'reason': 'Manutenção Preventiva', 'duration': 25}, {'reason': 'Troca de Sabor', 'duration': 24}]"
+2026-01-25,LINHA_B,Iogurte Grego,3,480,467,13,27233,297,26936,0.9729,0.8747,0.9891,0.7576,"[{'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-01-25,LINHA_C,Leite Fermentado,1,480,374,106,20199,865,19334,0.7792,0.9259,0.9572,0.6214,"[{'reason': 'Limpeza CIP', 'duration': 37}, {'reason': 'Manutenção Preventiva', 'duration': 69}]"
+2026-01-25,LINHA_C,Leite Fermentado,2,480,344,136,17952,546,17406,0.7167,0.8946,0.9696,0.5595,"[{'reason': 'Controle de Qualidade', 'duration': 21}, {'reason': 'Falha Elétrica', 'duration': 42}, {'reason': 'Manutenção Preventiva', 'duration': 73}]"
+2026-01-25,LINHA_C,Leite Fermentado,3,480,336,144,18016,97,17919,0.7,0.9192,0.9946,0.576,"[{'reason': 'Limpeza CIP', 'duration': 56}, {'reason': 'Controle de Qualidade', 'duration': 29}, {'reason': 'Falha Elétrica', 'duration': 22}, {'reason': 'Troca de Sabor', 'duration': 37}]"
+2026-01-26,LINHA_A,Iogurte Natural,1,480,480,0,39950,378,39572,1.0,0.9988,0.9905,0.9893,[]
+2026-01-26,LINHA_A,Iogurte Natural,2,480,340,140,26442,1004,25438,0.7083,0.9332,0.962,0.636,"[{'reason': 'Falta de Matéria-Prima', 'duration': 123}, {'reason': 'Controle de Qualidade', 'duration': 17}]"
+2026-01-26,LINHA_A,Iogurte Natural,3,480,480,0,36132,1455,34677,1.0,0.9033,0.9597,0.8669,[]
+2026-01-26,LINHA_B,Iogurte Grego,1,480,429,51,27574,181,27393,0.8938,0.9641,0.9934,0.856,"[{'reason': 'Limpeza CIP', 'duration': 51}]"
+2026-01-26,LINHA_B,Iogurte Grego,2,480,480,0,31798,685,31113,1.0,0.9937,0.9785,0.9723,[]
+2026-01-26,LINHA_B,Iogurte Grego,3,480,480,0,28666,1274,27392,1.0,0.8958,0.9556,0.856,[]
+2026-01-26,LINHA_C,Leite Fermentado,1,480,442,38,24708,1108,23600,0.9208,0.9583,0.9552,0.8429,"[{'reason': 'Troca de Sabor', 'duration': 27}, {'reason': 'Ajuste de Equipamento', 'duration': 11}]"
+2026-01-26,LINHA_C,Leite Fermentado,2,480,408,72,22713,116,22597,0.85,0.9543,0.9949,0.807,"[{'reason': 'Limpeza CIP', 'duration': 60}, {'reason': 'Controle de Qualidade', 'duration': 12}]"
+2026-01-26,LINHA_C,Leite Fermentado,3,480,306,174,17298,158,17140,0.6375,0.9691,0.9909,0.6121,"[{'reason': 'Falta de Matéria-Prima', 'duration': 174}]"
+2026-01-27,LINHA_A,Iogurte Natural,1,480,464,16,33242,1033,32209,0.9667,0.8597,0.9689,0.8052,"[{'reason': 'Troca de Sabor', 'duration': 16}]"
+2026-01-27,LINHA_A,Iogurte Natural,2,480,411,69,32587,1343,31244,0.8562,0.9514,0.9588,0.7811,"[{'reason': 'Falta de Matéria-Prima', 'duration': 42}, {'reason': 'Falta de Matéria-Prima', 'duration': 27}]"
+2026-01-27,LINHA_A,Iogurte Natural,3,480,320,160,24659,208,24451,0.6667,0.9247,0.9916,0.6113,"[{'reason': 'Falta de Matéria-Prima', 'duration': 160}]"
+2026-01-27,LINHA_B,Iogurte Grego,1,480,480,0,28804,1161,27643,1.0,0.9001,0.9597,0.8638,[]
+2026-01-27,LINHA_B,Iogurte Grego,2,480,291,189,16919,334,16585,0.6062,0.8721,0.9803,0.5183,"[{'reason': 'Falta de Matéria-Prima', 'duration': 69}, {'reason': 'Manutenção Preventiva', 'duration': 120}]"
+2026-01-27,LINHA_B,Iogurte Grego,3,480,457,23,26904,858,26046,0.9521,0.8831,0.9681,0.8139,"[{'reason': 'Troca de Sabor', 'duration': 23}]"
+2026-01-27,LINHA_C,Leite Fermentado,1,480,361,119,19909,803,19106,0.7521,0.9454,0.9597,0.6824,"[{'reason': 'Manutenção Preventiva', 'duration': 36}, {'reason': 'Ajuste de Equipamento', 'duration': 30}, {'reason': 'Manutenção Preventiva', 'duration': 34}, {'reason': 'Troca de Sabor', 'duration': 19}]"
+2026-01-27,LINHA_C,Leite Fermentado,2,480,480,0,25521,1092,24429,1.0,0.9115,0.9572,0.8725,[]
+2026-01-27,LINHA_C,Leite Fermentado,3,480,454,26,24845,330,24515,0.9458,0.9381,0.9867,0.8755,"[{'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-01-28,LINHA_A,Iogurte Natural,1,480,320,160,22771,138,22633,0.6667,0.8539,0.9939,0.5658,"[{'reason': 'Falta de Matéria-Prima', 'duration': 160}]"
+2026-01-28,LINHA_A,Iogurte Natural,2,480,460,20,34301,1623,32678,0.9583,0.8948,0.9527,0.8169,"[{'reason': 'Troca de Sabor', 'duration': 20}]"
+2026-01-28,LINHA_A,Iogurte Natural,3,480,474,6,38745,1661,37084,0.9875,0.9809,0.9571,0.9271,"[{'reason': 'Ajuste de Equipamento', 'duration': 6}]"
+2026-01-28,LINHA_B,Iogurte Grego,1,480,480,0,31052,795,30257,1.0,0.9704,0.9744,0.9455,[]
+2026-01-28,LINHA_B,Iogurte Grego,2,480,366,114,21035,794,20241,0.7625,0.8621,0.9623,0.6325,"[{'reason': 'Manutenção Preventiva', 'duration': 114}]"
+2026-01-28,LINHA_B,Iogurte Grego,3,480,442,38,28271,1115,27156,0.9208,0.9594,0.9606,0.8486,"[{'reason': 'Falha Elétrica', 'duration': 38}]"
+2026-01-28,LINHA_C,Leite Fermentado,1,480,480,0,26362,292,26070,1.0,0.9415,0.9889,0.9311,[]
+2026-01-28,LINHA_C,Leite Fermentado,2,480,361,119,18079,319,17760,0.7521,0.8585,0.9824,0.6343,"[{'reason': 'Limpeza CIP', 'duration': 53}, {'reason': 'Limpeza CIP', 'duration': 45}, {'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-01-28,LINHA_C,Leite Fermentado,3,480,436,44,25075,406,24669,0.9083,0.9859,0.9838,0.881,"[{'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-01-29,LINHA_A,Iogurte Natural,1,480,313,167,23930,956,22974,0.6521,0.9174,0.9601,0.5744,"[{'reason': 'Falta de Matéria-Prima', 'duration': 167}]"
+2026-01-29,LINHA_A,Iogurte Natural,2,480,480,0,36925,240,36685,1.0,0.9231,0.9935,0.9171,[]
+2026-01-29,LINHA_A,Iogurte Natural,3,480,480,0,39438,444,38994,1.0,0.9859,0.9887,0.9748,[]
+2026-01-29,LINHA_B,Iogurte Grego,1,480,442,38,26581,1209,25372,0.9208,0.9021,0.9545,0.7929,"[{'reason': 'Troca de Sabor', 'duration': 38}]"
+2026-01-29,LINHA_B,Iogurte Grego,2,480,480,0,30386,1469,28917,1.0,0.9496,0.9517,0.9037,[]
+2026-01-29,LINHA_B,Iogurte Grego,3,480,445,35,27080,452,26628,0.9271,0.9128,0.9833,0.8321,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}, {'reason': 'Troca de Sabor', 'duration': 16}]"
+2026-01-29,LINHA_C,Leite Fermentado,1,480,410,70,22676,315,22361,0.8542,0.9481,0.9861,0.7986,"[{'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Falha Elétrica', 'duration': 48}]"
+2026-01-29,LINHA_C,Leite Fermentado,2,480,383,97,20161,204,19957,0.7979,0.9024,0.9899,0.7127,"[{'reason': 'Limpeza CIP', 'duration': 45}, {'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Limpeza CIP', 'duration': 40}]"
+2026-01-29,LINHA_C,Leite Fermentado,3,480,480,0,24746,403,24343,1.0,0.8838,0.9837,0.8694,[]
+2026-01-30,LINHA_A,Iogurte Natural,1,480,397,83,32389,1215,31174,0.8271,0.979,0.9625,0.7793,"[{'reason': 'Manutenção Preventiva', 'duration': 28}, {'reason': 'Manutenção Preventiva', 'duration': 55}]"
+2026-01-30,LINHA_A,Iogurte Natural,2,480,480,0,38247,1126,37121,1.0,0.9562,0.9706,0.928,[]
+2026-01-30,LINHA_A,Iogurte Natural,3,480,480,0,36749,985,35764,1.0,0.9187,0.9732,0.8941,[]
+2026-01-30,LINHA_B,Iogurte Grego,1,480,480,0,31739,1372,30367,1.0,0.9918,0.9568,0.949,[]
+2026-01-30,LINHA_B,Iogurte Grego,2,480,418,62,26407,780,25627,0.8708,0.9476,0.9705,0.8008,"[{'reason': 'Falha Elétrica', 'duration': 43}, {'reason': 'Ajuste de Equipamento', 'duration': 19}]"
+2026-01-30,LINHA_B,Iogurte Grego,3,480,480,0,29660,1224,28436,1.0,0.9269,0.9587,0.8886,[]
+2026-01-30,LINHA_C,Leite Fermentado,1,480,469,11,26481,372,26109,0.9771,0.9679,0.986,0.9325,"[{'reason': 'Falha Elétrica', 'duration': 11}]"
+2026-01-30,LINHA_C,Leite Fermentado,2,480,423,57,22195,866,21329,0.8812,0.8995,0.961,0.7618,"[{'reason': 'Limpeza CIP', 'duration': 57}]"
+2026-01-30,LINHA_C,Leite Fermentado,3,480,360,120,20615,919,19696,0.75,0.9817,0.9554,0.7034,"[{'reason': 'Falta de Matéria-Prima', 'duration': 120}]"
+2026-01-31,LINHA_A,Iogurte Natural,1,480,463,17,35407,1746,33661,0.9646,0.9177,0.9507,0.7574,"[{'reason': 'Controle de Qualidade', 'duration': 17}]"
+2026-01-31,LINHA_A,Iogurte Natural,2,480,454,26,32528,841,31687,0.9458,0.8598,0.9741,0.713,"[{'reason': 'Falha Elétrica', 'duration': 26}]"
+2026-01-31,LINHA_A,Iogurte Natural,3,480,367,113,29008,1218,27790,0.7646,0.9485,0.958,0.6253,"[{'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Falha Elétrica', 'duration': 51}, {'reason': 'Limpeza CIP', 'duration': 40}]"
+2026-01-31,LINHA_B,Iogurte Grego,1,480,332,148,20550,368,20182,0.6917,0.9285,0.9821,0.5676,"[{'reason': 'Falha Elétrica', 'duration': 25}, {'reason': 'Ajuste de Equipamento', 'duration': 16}, {'reason': 'Manutenção Preventiva', 'duration': 107}]"
+2026-01-31,LINHA_B,Iogurte Grego,2,480,369,111,24286,703,23583,0.7688,0.9872,0.9711,0.6633,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Limpeza CIP', 'duration': 56}, {'reason': 'Limpeza CIP', 'duration': 32}, {'reason': 'Falha Elétrica', 'duration': 11}]"
+2026-01-31,LINHA_B,Iogurte Grego,3,480,480,0,30540,1242,29298,1.0,0.9544,0.9593,0.824,[]
+2026-01-31,LINHA_C,Leite Fermentado,1,480,356,124,20715,234,20481,0.7417,0.9975,0.9887,0.6583,"[{'reason': 'Manutenção Preventiva', 'duration': 91}, {'reason': 'Troca de Sabor', 'duration': 33}]"
+2026-01-31,LINHA_C,Leite Fermentado,2,480,480,0,24573,1111,23462,1.0,0.8776,0.9548,0.7541,[]
+2026-01-31,LINHA_C,Leite Fermentado,3,480,480,0,25649,838,24811,1.0,0.916,0.9673,0.7975,[]
+2026-02-01,LINHA_A,Iogurte Natural,1,480,480,0,39294,1617,37677,1.0,0.9824,0.9588,0.8477,[]
+2026-02-01,LINHA_A,Iogurte Natural,2,480,437,43,36329,1273,35056,0.9104,0.9976,0.965,0.7888,"[{'reason': 'Limpeza CIP', 'duration': 43}]"
+2026-02-01,LINHA_A,Iogurte Natural,3,480,420,60,34380,833,33547,0.875,0.9823,0.9758,0.7548,"[{'reason': 'Falha Elétrica', 'duration': 60}]"
+2026-02-01,LINHA_B,Iogurte Grego,1,480,480,0,27260,822,26438,1.0,0.8519,0.9698,0.7436,[]
+2026-02-01,LINHA_B,Iogurte Grego,2,480,395,85,25272,339,24933,0.8229,0.9597,0.9866,0.7012,"[{'reason': 'Troca de Sabor', 'duration': 45}, {'reason': 'Ajuste de Equipamento', 'duration': 24}, {'reason': 'Ajuste de Equipamento', 'duration': 16}]"
+2026-02-01,LINHA_B,Iogurte Grego,3,480,325,155,19947,837,19110,0.6771,0.9206,0.958,0.5375,"[{'reason': 'Limpeza CIP', 'duration': 48}, {'reason': 'Falta de Matéria-Prima', 'duration': 49}, {'reason': 'Controle de Qualidade', 'duration': 17}, {'reason': 'Limpeza CIP', 'duration': 41}]"
+2026-02-01,LINHA_C,Leite Fermentado,1,480,480,0,25875,1093,24782,1.0,0.9241,0.9578,0.7966,[]
+2026-02-01,LINHA_C,Leite Fermentado,2,480,426,54,23776,1002,22774,0.8875,0.9568,0.9579,0.732,"[{'reason': 'Limpeza CIP', 'duration': 54}]"
+2026-02-01,LINHA_C,Leite Fermentado,3,480,480,0,24807,282,24525,1.0,0.886,0.9886,0.7883,[]
+2026-02-02,LINHA_A,Iogurte Natural,1,480,457,23,36648,1257,35391,0.9521,0.9623,0.9657,0.8848,"[{'reason': 'Ajuste de Equipamento', 'duration': 23}]"
+2026-02-02,LINHA_A,Iogurte Natural,2,480,361,119,29367,769,28598,0.7521,0.9762,0.9738,0.715,"[{'reason': 'Falta de Matéria-Prima', 'duration': 119}]"
+2026-02-02,LINHA_A,Iogurte Natural,3,480,441,39,34964,686,34278,0.9187,0.9514,0.9804,0.857,"[{'reason': 'Troca de Sabor', 'duration': 34}, {'reason': 'Ajuste de Equipamento', 'duration': 5}]"
+2026-02-02,LINHA_B,Iogurte Grego,1,480,426,54,24884,1082,23802,0.8875,0.8762,0.9565,0.7438,"[{'reason': 'Manutenção Preventiva', 'duration': 54}]"
+2026-02-02,LINHA_B,Iogurte Grego,2,480,465,15,27648,938,26710,0.9688,0.8919,0.9661,0.8347,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-02-02,LINHA_B,Iogurte Grego,3,480,460,20,27044,175,26869,0.9583,0.8819,0.9935,0.8397,"[{'reason': 'Troca de Sabor', 'duration': 20}]"
+2026-02-02,LINHA_C,Leite Fermentado,1,480,388,92,22423,991,21432,0.8083,0.9907,0.9558,0.7654,"[{'reason': 'Manutenção Preventiva', 'duration': 92}]"
+2026-02-02,LINHA_C,Leite Fermentado,2,480,340,140,19557,688,18869,0.7083,0.9861,0.9648,0.6739,"[{'reason': 'Falha Elétrica', 'duration': 9}, {'reason': 'Manutenção Preventiva', 'duration': 114}, {'reason': 'Troca de Sabor', 'duration': 17}]"
+2026-02-02,LINHA_C,Leite Fermentado,3,480,374,106,20007,514,19493,0.7792,0.9171,0.9743,0.6962,"[{'reason': 'Falta de Matéria-Prima', 'duration': 106}]"
+2026-02-03,LINHA_A,Iogurte Natural,1,480,446,34,37037,369,36668,0.9292,0.9965,0.99,0.9167,"[{'reason': 'Falha Elétrica', 'duration': 34}]"
+2026-02-03,LINHA_A,Iogurte Natural,2,480,413,67,33073,1531,31542,0.8604,0.961,0.9537,0.7886,"[{'reason': 'Manutenção Preventiva', 'duration': 67}]"
+2026-02-03,LINHA_A,Iogurte Natural,3,480,452,28,37162,1446,35716,0.9417,0.9866,0.9611,0.8929,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}]"
+2026-02-03,LINHA_B,Iogurte Grego,1,480,422,58,27976,1054,26922,0.8792,0.9944,0.9623,0.8413,"[{'reason': 'Limpeza CIP', 'duration': 58}]"
+2026-02-03,LINHA_B,Iogurte Grego,2,480,345,135,22561,227,22334,0.7188,0.9809,0.9899,0.6979,"[{'reason': 'Troca de Sabor', 'duration': 19}, {'reason': 'Manutenção Preventiva', 'duration': 116}]"
+2026-02-03,LINHA_B,Iogurte Grego,3,480,406,74,23988,133,23855,0.8458,0.8863,0.9945,0.7455,"[{'reason': 'Troca de Sabor', 'duration': 36}, {'reason': 'Limpeza CIP', 'duration': 38}]"
+2026-02-03,LINHA_C,Leite Fermentado,1,480,457,23,25052,460,24592,0.9521,0.9397,0.9816,0.8783,"[{'reason': 'Controle de Qualidade', 'duration': 23}]"
+2026-02-03,LINHA_C,Leite Fermentado,2,480,451,29,22552,1029,21523,0.9396,0.8572,0.9544,0.7687,"[{'reason': 'Controle de Qualidade', 'duration': 29}]"
+2026-02-03,LINHA_C,Leite Fermentado,3,480,393,87,19757,311,19446,0.8187,0.8618,0.9843,0.6945,"[{'reason': 'Controle de Qualidade', 'duration': 23}, {'reason': 'Ajuste de Equipamento', 'duration': 11}, {'reason': 'Limpeza CIP', 'duration': 41}, {'reason': 'Falha Elétrica', 'duration': 12}]"
+2026-02-04,LINHA_A,Iogurte Natural,1,480,454,26,35465,1765,33700,0.9458,0.9374,0.9502,0.8425,"[{'reason': 'Ajuste de Equipamento', 'duration': 26}]"
+2026-02-04,LINHA_A,Iogurte Natural,2,480,448,32,36389,1162,35227,0.9333,0.9747,0.9681,0.8807,"[{'reason': 'Controle de Qualidade', 'duration': 26}, {'reason': 'Ajuste de Equipamento', 'duration': 6}]"
+2026-02-04,LINHA_A,Iogurte Natural,3,480,480,0,34563,1587,32976,1.0,0.8641,0.9541,0.8244,[]
+2026-02-04,LINHA_B,Iogurte Grego,1,480,222,258,13535,260,13275,0.4625,0.9145,0.9808,0.4148,"[{'reason': 'Falta de Matéria-Prima', 'duration': 111}, {'reason': 'Troca de Sabor', 'duration': 15}, {'reason': 'Falta de Matéria-Prima', 'duration': 87}, {'reason': 'Falta de Matéria-Prima', 'duration': 45}]"
+2026-02-04,LINHA_B,Iogurte Grego,2,480,466,14,30565,762,29803,0.9708,0.9839,0.9751,0.9313,"[{'reason': 'Ajuste de Equipamento', 'duration': 14}]"
+2026-02-04,LINHA_B,Iogurte Grego,3,480,391,89,23085,647,22438,0.8146,0.8856,0.972,0.7012,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Controle de Qualidade', 'duration': 23}, {'reason': 'Manutenção Preventiva', 'duration': 36}]"
+2026-02-04,LINHA_C,Leite Fermentado,1,480,480,0,25414,684,24730,1.0,0.9076,0.9731,0.8832,[]
+2026-02-04,LINHA_C,Leite Fermentado,2,480,261,219,14389,117,14272,0.5437,0.9451,0.9919,0.5097,"[{'reason': 'Falha Elétrica', 'duration': 39}, {'reason': 'Falta de Matéria-Prima', 'duration': 138}, {'reason': 'Limpeza CIP', 'duration': 42}]"
+2026-02-04,LINHA_C,Leite Fermentado,3,480,452,28,24280,171,24109,0.9417,0.9209,0.993,0.861,"[{'reason': 'Troca de Sabor', 'duration': 28}]"
+2026-02-05,LINHA_A,Iogurte Natural,1,480,480,0,35660,1737,33923,1.0,0.8915,0.9513,0.8481,[]
+2026-02-05,LINHA_A,Iogurte Natural,2,480,451,29,33051,1073,31978,0.9396,0.8794,0.9675,0.7994,"[{'reason': 'Troca de Sabor', 'duration': 29}]"
+2026-02-05,LINHA_A,Iogurte Natural,3,480,423,57,32693,171,32522,0.8812,0.9275,0.9948,0.8131,"[{'reason': 'Limpeza CIP', 'duration': 57}]"
+2026-02-05,LINHA_B,Iogurte Grego,1,480,480,0,28251,187,28064,1.0,0.8828,0.9934,0.877,[]
+2026-02-05,LINHA_B,Iogurte Grego,2,480,480,0,28826,1185,27641,1.0,0.9008,0.9589,0.8638,[]
+2026-02-05,LINHA_B,Iogurte Grego,3,480,439,41,28967,662,28305,0.9146,0.9898,0.9771,0.8845,"[{'reason': 'Falha Elétrica', 'duration': 41}]"
+2026-02-05,LINHA_C,Leite Fermentado,1,480,480,0,26391,267,26124,1.0,0.9425,0.9899,0.933,[]
+2026-02-05,LINHA_C,Leite Fermentado,2,480,430,50,24610,669,23941,0.8958,0.9811,0.9728,0.855,"[{'reason': 'Falha Elétrica', 'duration': 50}]"
+2026-02-05,LINHA_C,Leite Fermentado,3,480,415,65,21574,490,21084,0.8646,0.8912,0.9773,0.753,"[{'reason': 'Falha Elétrica', 'duration': 23}, {'reason': 'Limpeza CIP', 'duration': 42}]"
+2026-02-06,LINHA_A,Iogurte Natural,1,480,435,45,35747,1327,34420,0.9062,0.9861,0.9629,0.8605,"[{'reason': 'Troca de Sabor', 'duration': 45}]"
+2026-02-06,LINHA_A,Iogurte Natural,2,480,480,0,38942,1868,37074,1.0,0.9736,0.952,0.9269,[]
+2026-02-06,LINHA_A,Iogurte Natural,3,480,381,99,30018,219,29799,0.7937,0.9454,0.9927,0.745,"[{'reason': 'Manutenção Preventiva', 'duration': 99}]"
+2026-02-06,LINHA_B,Iogurte Grego,1,480,459,21,28781,1033,27748,0.9563,0.9406,0.9641,0.8671,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-02-06,LINHA_B,Iogurte Grego,2,480,480,0,29042,741,28301,1.0,0.9076,0.9745,0.8844,[]
+2026-02-06,LINHA_B,Iogurte Grego,3,480,437,43,26594,1031,25563,0.9104,0.9128,0.9612,0.7988,"[{'reason': 'Limpeza CIP', 'duration': 43}]"
+2026-02-06,LINHA_C,Leite Fermentado,1,480,480,0,24136,506,23630,1.0,0.862,0.979,0.8439,[]
+2026-02-06,LINHA_C,Leite Fermentado,2,480,363,117,19884,108,19776,0.7562,0.939,0.9946,0.7063,"[{'reason': 'Limpeza CIP', 'duration': 37}, {'reason': 'Falha Elétrica', 'duration': 42}, {'reason': 'Falha Elétrica', 'duration': 38}]"
+2026-02-06,LINHA_C,Leite Fermentado,3,480,286,194,16439,131,16308,0.5958,0.9854,0.992,0.5824,"[{'reason': 'Limpeza CIP', 'duration': 42}, {'reason': 'Ajuste de Equipamento', 'duration': 28}, {'reason': 'Falta de Matéria-Prima', 'duration': 95}, {'reason': 'Manutenção Preventiva', 'duration': 29}]"
+2026-02-07,LINHA_A,Iogurte Natural,1,480,434,46,30805,739,30066,0.9042,0.8518,0.976,0.6765,"[{'reason': 'Limpeza CIP', 'duration': 46}]"
+2026-02-07,LINHA_A,Iogurte Natural,2,480,381,99,29736,207,29529,0.7937,0.9366,0.993,0.6644,"[{'reason': 'Falta de Matéria-Prima', 'duration': 99}]"
+2026-02-07,LINHA_A,Iogurte Natural,3,480,480,0,37351,763,36588,1.0,0.9338,0.9796,0.8232,[]
+2026-02-07,LINHA_B,Iogurte Grego,1,480,385,95,24407,424,23983,0.8021,0.9509,0.9826,0.6745,"[{'reason': 'Manutenção Preventiva', 'duration': 50}, {'reason': 'Limpeza CIP', 'duration': 34}, {'reason': 'Ajuste de Equipamento', 'duration': 11}]"
+2026-02-07,LINHA_B,Iogurte Grego,2,480,266,214,17197,722,16475,0.5542,0.9698,0.958,0.4634,"[{'reason': 'Manutenção Preventiva', 'duration': 97}, {'reason': 'Manutenção Preventiva', 'duration': 117}]"
+2026-02-07,LINHA_B,Iogurte Grego,3,480,393,87,24558,532,24026,0.8187,0.9373,0.9783,0.6757,"[{'reason': 'Limpeza CIP', 'duration': 35}, {'reason': 'Controle de Qualidade', 'duration': 24}, {'reason': 'Controle de Qualidade', 'duration': 28}]"
+2026-02-07,LINHA_C,Leite Fermentado,1,480,404,76,20621,502,20119,0.8417,0.875,0.9757,0.6467,"[{'reason': 'Manutenção Preventiva', 'duration': 76}]"
+2026-02-07,LINHA_C,Leite Fermentado,2,480,480,0,27538,566,26972,1.0,0.9835,0.9794,0.867,[]
+2026-02-07,LINHA_C,Leite Fermentado,3,480,480,0,23906,814,23092,1.0,0.8538,0.9659,0.7422,[]
+2026-02-08,LINHA_A,Iogurte Natural,1,480,435,45,31202,731,30471,0.9062,0.8607,0.9766,0.6856,"[{'reason': 'Limpeza CIP', 'duration': 45}]"
+2026-02-08,LINHA_A,Iogurte Natural,2,480,450,30,35282,755,34527,0.9375,0.9409,0.9786,0.7769,"[{'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-02-08,LINHA_A,Iogurte Natural,3,480,480,0,39928,1015,38913,1.0,0.9982,0.9746,0.8755,[]
+2026-02-08,LINHA_B,Iogurte Grego,1,480,450,30,27685,172,27513,0.9375,0.9228,0.9938,0.7738,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2026-02-08,LINHA_B,Iogurte Grego,2,480,431,49,24591,157,24434,0.8979,0.8558,0.9936,0.6872,"[{'reason': 'Ajuste de Equipamento', 'duration': 23}, {'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-02-08,LINHA_B,Iogurte Grego,3,480,441,39,25092,979,24113,0.9187,0.8535,0.961,0.6782,"[{'reason': 'Limpeza CIP', 'duration': 39}]"
+2026-02-08,LINHA_C,Leite Fermentado,1,480,456,24,26201,267,25934,0.95,0.985,0.9898,0.8336,"[{'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-02-08,LINHA_C,Leite Fermentado,2,480,457,23,25965,1279,24686,0.9521,0.974,0.9507,0.7935,"[{'reason': 'Troca de Sabor', 'duration': 16}, {'reason': 'Ajuste de Equipamento', 'duration': 7}]"
+2026-02-08,LINHA_C,Leite Fermentado,3,480,397,83,21023,427,20596,0.8271,0.9078,0.9797,0.662,"[{'reason': 'Limpeza CIP', 'duration': 49}, {'reason': 'Falha Elétrica', 'duration': 34}]"
+2026-02-09,LINHA_A,Iogurte Natural,1,480,451,29,35067,1030,34037,0.9396,0.933,0.9706,0.8509,"[{'reason': 'Troca de Sabor', 'duration': 29}]"
+2026-02-09,LINHA_A,Iogurte Natural,2,480,335,145,24815,341,24474,0.6979,0.8889,0.9863,0.6119,"[{'reason': 'Falta de Matéria-Prima', 'duration': 92}, {'reason': 'Controle de Qualidade', 'duration': 26}, {'reason': 'Manutenção Preventiva', 'duration': 27}]"
+2026-02-09,LINHA_A,Iogurte Natural,3,480,480,0,36054,618,35436,1.0,0.9013,0.9829,0.8859,[]
+2026-02-09,LINHA_B,Iogurte Grego,1,480,467,13,29174,328,28846,0.9729,0.9371,0.9888,0.9014,"[{'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-02-09,LINHA_B,Iogurte Grego,2,480,409,71,24819,1234,23585,0.8521,0.9102,0.9503,0.737,"[{'reason': 'Limpeza CIP', 'duration': 46}, {'reason': 'Manutenção Preventiva', 'duration': 25}]"
+2026-02-09,LINHA_B,Iogurte Grego,3,480,266,214,15608,355,15253,0.5542,0.8802,0.9773,0.4767,"[{'reason': 'Falta de Matéria-Prima', 'duration': 122}, {'reason': 'Controle de Qualidade', 'duration': 26}, {'reason': 'Manutenção Preventiva', 'duration': 66}]"
+2026-02-09,LINHA_C,Leite Fermentado,1,480,480,0,25797,759,25038,1.0,0.9213,0.9706,0.8942,[]
+2026-02-09,LINHA_C,Leite Fermentado,2,480,480,0,27619,1035,26584,1.0,0.9864,0.9625,0.9494,[]
+2026-02-09,LINHA_C,Leite Fermentado,3,480,409,71,23108,245,22863,0.8521,0.9686,0.9894,0.8165,"[{'reason': 'Ajuste de Equipamento', 'duration': 17}, {'reason': 'Falha Elétrica', 'duration': 54}]"
+2026-02-10,LINHA_A,Iogurte Natural,1,480,480,0,39262,1864,37398,1.0,0.9816,0.9525,0.935,[]
+2026-02-10,LINHA_A,Iogurte Natural,2,480,480,0,36776,1807,34969,1.0,0.9194,0.9509,0.8742,[]
+2026-02-10,LINHA_A,Iogurte Natural,3,480,400,80,29762,420,29342,0.8333,0.8929,0.9859,0.7336,"[{'reason': 'Troca de Sabor', 'duration': 40}, {'reason': 'Limpeza CIP', 'duration': 40}]"
+2026-02-10,LINHA_B,Iogurte Grego,1,480,410,70,25251,782,24469,0.8542,0.9238,0.969,0.7647,"[{'reason': 'Limpeza CIP', 'duration': 47}, {'reason': 'Falha Elétrica', 'duration': 23}]"
+2026-02-10,LINHA_B,Iogurte Grego,2,480,278,202,17347,833,16514,0.5792,0.936,0.952,0.5161,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}, {'reason': 'Manutenção Preventiva', 'duration': 62}, {'reason': 'Limpeza CIP', 'duration': 48}, {'reason': 'Manutenção Preventiva', 'duration': 64}]"
+2026-02-10,LINHA_B,Iogurte Grego,3,480,480,0,27724,1204,26520,1.0,0.8664,0.9566,0.8287,[]
+2026-02-10,LINHA_C,Leite Fermentado,1,480,403,77,23097,581,22516,0.8396,0.9825,0.9748,0.8041,"[{'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Falha Elétrica', 'duration': 13}, {'reason': 'Limpeza CIP', 'duration': 39}]"
+2026-02-10,LINHA_C,Leite Fermentado,2,480,329,151,17685,635,17050,0.6854,0.9215,0.9641,0.6089,"[{'reason': 'Falha Elétrica', 'duration': 46}, {'reason': 'Manutenção Preventiva', 'duration': 105}]"
+2026-02-10,LINHA_C,Leite Fermentado,3,480,393,87,20515,433,20082,0.8187,0.8949,0.9789,0.7172,"[{'reason': 'Limpeza CIP', 'duration': 50}, {'reason': 'Falha Elétrica', 'duration': 37}]"
+2026-02-11,LINHA_A,Iogurte Natural,1,480,454,26,37591,202,37389,0.9458,0.9936,0.9946,0.9347,"[{'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-02-11,LINHA_A,Iogurte Natural,2,480,357,123,25351,968,24383,0.7438,0.8521,0.9618,0.6096,"[{'reason': 'Ajuste de Equipamento', 'duration': 10}, {'reason': 'Falta de Matéria-Prima', 'duration': 97}, {'reason': 'Controle de Qualidade', 'duration': 16}]"
+2026-02-11,LINHA_A,Iogurte Natural,3,480,406,74,32581,1290,31291,0.8458,0.963,0.9604,0.7823,"[{'reason': 'Falta de Matéria-Prima', 'duration': 45}, {'reason': 'Manutenção Preventiva', 'duration': 29}]"
+2026-02-11,LINHA_B,Iogurte Grego,1,480,368,112,22647,192,22455,0.7667,0.9231,0.9915,0.7017,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}, {'reason': 'Limpeza CIP', 'duration': 46}, {'reason': 'Troca de Sabor', 'duration': 36}]"
+2026-02-11,LINHA_B,Iogurte Grego,2,480,384,96,22013,455,21558,0.8,0.8599,0.9793,0.6737,"[{'reason': 'Manutenção Preventiva', 'duration': 96}]"
+2026-02-11,LINHA_B,Iogurte Grego,3,480,480,0,31079,1480,29599,1.0,0.9712,0.9524,0.925,[]
+2026-02-11,LINHA_C,Leite Fermentado,1,480,480,0,27811,793,27018,1.0,0.9932,0.9715,0.9649,[]
+2026-02-11,LINHA_C,Leite Fermentado,2,480,466,14,25147,1024,24123,0.9708,0.9251,0.9593,0.8615,"[{'reason': 'Falha Elétrica', 'duration': 14}]"
+2026-02-11,LINHA_C,Leite Fermentado,3,480,437,43,21946,507,21439,0.9104,0.8609,0.9769,0.7657,"[{'reason': 'Manutenção Preventiva', 'duration': 43}]"
+2026-02-12,LINHA_A,Iogurte Natural,1,480,368,112,27359,1126,26233,0.7667,0.8921,0.9588,0.6558,"[{'reason': 'Manutenção Preventiva', 'duration': 112}]"
+2026-02-12,LINHA_A,Iogurte Natural,2,480,318,162,24418,370,24048,0.6625,0.9214,0.9848,0.6012,"[{'reason': 'Controle de Qualidade', 'duration': 11}, {'reason': 'Falha Elétrica', 'duration': 28}, {'reason': 'Falta de Matéria-Prima', 'duration': 123}]"
+2026-02-12,LINHA_A,Iogurte Natural,3,480,345,135,27231,286,26945,0.7188,0.9472,0.9895,0.6736,"[{'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Controle de Qualidade', 'duration': 17}, {'reason': 'Falta de Matéria-Prima', 'duration': 89}]"
+2026-02-12,LINHA_B,Iogurte Grego,1,480,464,16,29011,960,28051,0.9667,0.9379,0.9669,0.8766,"[{'reason': 'Controle de Qualidade', 'duration': 16}]"
+2026-02-12,LINHA_B,Iogurte Grego,2,480,480,0,30476,484,29992,1.0,0.9524,0.9841,0.9372,[]
+2026-02-12,LINHA_B,Iogurte Grego,3,480,375,105,21785,869,20916,0.7812,0.8714,0.9601,0.6536,"[{'reason': 'Controle de Qualidade', 'duration': 24}, {'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Falha Elétrica', 'duration': 37}, {'reason': 'Falha Elétrica', 'duration': 15}]"
+2026-02-12,LINHA_C,Leite Fermentado,1,480,316,164,16454,181,16273,0.6583,0.8926,0.989,0.5812,"[{'reason': 'Falta de Matéria-Prima', 'duration': 164}]"
+2026-02-12,LINHA_C,Leite Fermentado,2,480,428,52,24025,463,23562,0.8917,0.9623,0.9807,0.8415,"[{'reason': 'Manutenção Preventiva', 'duration': 52}]"
+2026-02-12,LINHA_C,Leite Fermentado,3,480,480,0,25946,184,25762,1.0,0.9266,0.9929,0.9201,[]
+2026-02-13,LINHA_A,Iogurte Natural,1,480,445,35,31869,1363,30506,0.9271,0.8594,0.9572,0.7627,"[{'reason': 'Troca de Sabor', 'duration': 35}]"
+2026-02-13,LINHA_A,Iogurte Natural,2,480,480,0,35480,1360,34120,1.0,0.887,0.9617,0.853,[]
+2026-02-13,LINHA_A,Iogurte Natural,3,480,459,21,34579,593,33986,0.9563,0.904,0.9829,0.8497,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-02-13,LINHA_B,Iogurte Grego,1,480,389,91,25512,625,24887,0.8104,0.9838,0.9755,0.7777,"[{'reason': 'Limpeza CIP', 'duration': 52}, {'reason': 'Limpeza CIP', 'duration': 39}]"
+2026-02-13,LINHA_B,Iogurte Grego,2,480,346,134,21983,598,21385,0.7208,0.953,0.9728,0.6683,"[{'reason': 'Limpeza CIP', 'duration': 54}, {'reason': 'Manutenção Preventiva', 'duration': 54}, {'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-02-13,LINHA_B,Iogurte Grego,3,480,345,135,19565,244,19321,0.7188,0.8507,0.9875,0.6038,"[{'reason': 'Manutenção Preventiva', 'duration': 75}, {'reason': 'Limpeza CIP', 'duration': 60}]"
+2026-02-13,LINHA_C,Leite Fermentado,1,480,192,288,9697,389,9308,0.4,0.8658,0.9599,0.3324,"[{'reason': 'Falta de Matéria-Prima', 'duration': 125}, {'reason': 'Troca de Sabor', 'duration': 28}, {'reason': 'Troca de Sabor', 'duration': 27}, {'reason': 'Falta de Matéria-Prima', 'duration': 108}]"
+2026-02-13,LINHA_C,Leite Fermentado,2,480,439,41,23150,1112,22038,0.9146,0.904,0.952,0.7871,"[{'reason': 'Limpeza CIP', 'duration': 41}]"
+2026-02-13,LINHA_C,Leite Fermentado,3,480,463,17,24811,357,24454,0.9646,0.9186,0.9856,0.8734,"[{'reason': 'Falta de Matéria-Prima', 'duration': 17}]"
+2026-02-14,LINHA_A,Iogurte Natural,1,480,480,0,34314,1356,32958,1.0,0.8579,0.9605,0.7416,[]
+2026-02-14,LINHA_A,Iogurte Natural,2,480,387,93,30592,803,29789,0.8063,0.9486,0.9738,0.6703,"[{'reason': 'Limpeza CIP', 'duration': 56}, {'reason': 'Manutenção Preventiva', 'duration': 37}]"
+2026-02-14,LINHA_A,Iogurte Natural,3,480,456,24,36163,1169,34994,0.95,0.9517,0.9677,0.7874,"[{'reason': 'Troca de Sabor', 'duration': 24}]"
+2026-02-14,LINHA_B,Iogurte Grego,1,480,466,14,29443,1125,28318,0.9708,0.9477,0.9618,0.7964,"[{'reason': 'Controle de Qualidade', 'duration': 14}]"
+2026-02-14,LINHA_B,Iogurte Grego,2,480,456,24,27641,1025,26616,0.95,0.9092,0.9629,0.7486,"[{'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-02-14,LINHA_B,Iogurte Grego,3,480,480,0,31473,564,30909,1.0,0.9835,0.9821,0.8693,[]
+2026-02-14,LINHA_C,Leite Fermentado,1,480,437,43,22094,623,21471,0.9104,0.8667,0.9718,0.6901,"[{'reason': 'Troca de Sabor', 'duration': 43}]"
+2026-02-14,LINHA_C,Leite Fermentado,2,480,439,41,23223,468,22755,0.9146,0.9069,0.9798,0.7314,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Ajuste de Equipamento', 'duration': 11}]"
+2026-02-14,LINHA_C,Leite Fermentado,3,480,480,0,24322,574,23748,1.0,0.8686,0.9764,0.7633,[]
+2026-02-15,LINHA_A,Iogurte Natural,1,480,390,90,30213,960,29253,0.8125,0.9296,0.9682,0.6582,"[{'reason': 'Manutenção Preventiva', 'duration': 90}]"
+2026-02-15,LINHA_A,Iogurte Natural,2,480,480,0,36784,1778,35006,1.0,0.9196,0.9517,0.7876,[]
+2026-02-15,LINHA_A,Iogurte Natural,3,480,456,24,36711,1460,35251,0.95,0.9661,0.9602,0.7931,"[{'reason': 'Falha Elétrica', 'duration': 12}, {'reason': 'Ajuste de Equipamento', 'duration': 12}]"
+2026-02-15,LINHA_B,Iogurte Grego,1,480,450,30,25576,1014,24562,0.9375,0.8525,0.9604,0.6908,"[{'reason': 'Ajuste de Equipamento', 'duration': 8}, {'reason': 'Troca de Sabor', 'duration': 22}]"
+2026-02-15,LINHA_B,Iogurte Grego,2,480,435,45,25805,149,25656,0.9062,0.8898,0.9942,0.7216,"[{'reason': 'Falha Elétrica', 'duration': 45}]"
+2026-02-15,LINHA_B,Iogurte Grego,3,480,412,68,24780,538,24242,0.8583,0.9022,0.9783,0.6818,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Limpeza CIP', 'duration': 56}]"
+2026-02-15,LINHA_C,Leite Fermentado,1,480,480,0,25059,854,24205,1.0,0.895,0.9659,0.778,[]
+2026-02-15,LINHA_C,Leite Fermentado,2,480,416,64,23897,961,22936,0.8667,0.9848,0.9598,0.7372,"[{'reason': 'Controle de Qualidade', 'duration': 29}, {'reason': 'Troca de Sabor', 'duration': 35}]"
+2026-02-15,LINHA_C,Leite Fermentado,3,480,416,64,21729,172,21557,0.8667,0.8954,0.9921,0.6929,"[{'reason': 'Falta de Matéria-Prima', 'duration': 46}, {'reason': 'Ajuste de Equipamento', 'duration': 18}]"
+2026-02-16,LINHA_A,Iogurte Natural,1,480,446,34,34290,1324,32966,0.9292,0.9226,0.9614,0.8242,"[{'reason': 'Troca de Sabor', 'duration': 34}]"
+2026-02-16,LINHA_A,Iogurte Natural,2,480,480,0,39746,1884,37862,1.0,0.9936,0.9526,0.9465,[]
+2026-02-16,LINHA_A,Iogurte Natural,3,480,262,218,19755,299,19456,0.5458,0.9048,0.9849,0.4864,"[{'reason': 'Falta de Matéria-Prima', 'duration': 156}, {'reason': 'Falha Elétrica', 'duration': 16}, {'reason': 'Limpeza CIP', 'duration': 46}]"
+2026-02-16,LINHA_B,Iogurte Grego,1,480,480,0,27875,920,26955,1.0,0.8711,0.967,0.8423,[]
+2026-02-16,LINHA_B,Iogurte Grego,2,480,393,87,25457,855,24602,0.8187,0.9716,0.9664,0.7688,"[{'reason': 'Limpeza CIP', 'duration': 60}, {'reason': 'Troca de Sabor', 'duration': 27}]"
+2026-02-16,LINHA_B,Iogurte Grego,3,480,441,39,26512,1227,25285,0.9187,0.9018,0.9537,0.7902,"[{'reason': 'Controle de Qualidade', 'duration': 11}, {'reason': 'Falha Elétrica', 'duration': 28}]"
+2026-02-16,LINHA_C,Leite Fermentado,1,480,452,28,25932,955,24977,0.9417,0.9835,0.9632,0.892,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}]"
+2026-02-16,LINHA_C,Leite Fermentado,2,480,480,0,24418,130,24288,1.0,0.8721,0.9947,0.8674,[]
+2026-02-16,LINHA_C,Leite Fermentado,3,480,413,67,23939,690,23249,0.8604,0.9937,0.9712,0.8303,"[{'reason': 'Troca de Sabor', 'duration': 26}, {'reason': 'Limpeza CIP', 'duration': 41}]"
+2026-02-17,LINHA_A,Iogurte Natural,1,480,302,178,23957,201,23756,0.6292,0.9519,0.9916,0.5939,"[{'reason': 'Falta de Matéria-Prima', 'duration': 178}]"
+2026-02-17,LINHA_A,Iogurte Natural,2,480,426,54,32622,965,31657,0.8875,0.9189,0.9704,0.7914,"[{'reason': 'Limpeza CIP', 'duration': 54}]"
+2026-02-17,LINHA_A,Iogurte Natural,3,480,480,0,34994,876,34118,1.0,0.8749,0.975,0.853,[]
+2026-02-17,LINHA_B,Iogurte Grego,1,480,480,0,27439,1178,26261,1.0,0.8575,0.9571,0.8207,[]
+2026-02-17,LINHA_B,Iogurte Grego,2,480,455,25,30154,417,29737,0.9479,0.9941,0.9862,0.9293,"[{'reason': 'Manutenção Preventiva', 'duration': 25}]"
+2026-02-17,LINHA_B,Iogurte Grego,3,480,236,244,14404,456,13948,0.4917,0.9155,0.9683,0.4359,"[{'reason': 'Manutenção Preventiva', 'duration': 119}, {'reason': 'Controle de Qualidade', 'duration': 25}, {'reason': 'Manutenção Preventiva', 'duration': 37}, {'reason': 'Limpeza CIP', 'duration': 52}, {'reason': 'Controle de Qualidade', 'duration': 11}]"
+2026-02-17,LINHA_C,Leite Fermentado,1,480,480,0,26413,1298,25115,1.0,0.9433,0.9509,0.897,[]
+2026-02-17,LINHA_C,Leite Fermentado,2,480,480,0,27128,1243,25885,1.0,0.9689,0.9542,0.9245,[]
+2026-02-17,LINHA_C,Leite Fermentado,3,480,388,92,20857,778,20079,0.8083,0.9215,0.9627,0.7171,"[{'reason': 'Ajuste de Equipamento', 'duration': 11}, {'reason': 'Troca de Sabor', 'duration': 40}, {'reason': 'Falta de Matéria-Prima', 'duration': 20}, {'reason': 'Ajuste de Equipamento', 'duration': 21}]"
+2026-02-18,LINHA_A,Iogurte Natural,1,480,423,57,33487,412,33075,0.8812,0.95,0.9877,0.8269,"[{'reason': 'Falha Elétrica', 'duration': 57}]"
+2026-02-18,LINHA_A,Iogurte Natural,2,480,423,57,30026,162,29864,0.8812,0.8518,0.9946,0.7466,"[{'reason': 'Controle de Qualidade', 'duration': 18}, {'reason': 'Troca de Sabor', 'duration': 39}]"
+2026-02-18,LINHA_A,Iogurte Natural,3,480,397,83,31268,468,30800,0.8271,0.9451,0.985,0.77,"[{'reason': 'Falta de Matéria-Prima', 'duration': 83}]"
+2026-02-18,LINHA_B,Iogurte Grego,1,480,438,42,25237,613,24624,0.9125,0.8643,0.9757,0.7695,"[{'reason': 'Troca de Sabor', 'duration': 42}]"
+2026-02-18,LINHA_B,Iogurte Grego,2,480,480,0,29508,1027,28481,1.0,0.9221,0.9652,0.89,[]
+2026-02-18,LINHA_B,Iogurte Grego,3,480,480,0,28586,654,27932,1.0,0.8933,0.9771,0.8729,[]
+2026-02-18,LINHA_C,Leite Fermentado,1,480,472,8,26546,576,25970,0.9833,0.9641,0.9783,0.9275,"[{'reason': 'Ajuste de Equipamento', 'duration': 8}]"
+2026-02-18,LINHA_C,Leite Fermentado,2,480,345,135,18184,735,17449,0.7188,0.9036,0.9596,0.6232,"[{'reason': 'Falha Elétrica', 'duration': 30}, {'reason': 'Controle de Qualidade', 'duration': 22}, {'reason': 'Manutenção Preventiva', 'duration': 83}]"
+2026-02-18,LINHA_C,Leite Fermentado,3,480,459,21,24198,836,23362,0.9563,0.9038,0.9655,0.8344,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-02-19,LINHA_A,Iogurte Natural,1,480,450,30,37040,354,36686,0.9375,0.9877,0.9904,0.9172,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2026-02-19,LINHA_A,Iogurte Natural,2,480,427,53,30453,201,30252,0.8896,0.8558,0.9934,0.7563,"[{'reason': 'Limpeza CIP', 'duration': 53}]"
+2026-02-19,LINHA_A,Iogurte Natural,3,480,480,0,39200,694,38506,1.0,0.98,0.9823,0.9627,[]
+2026-02-19,LINHA_B,Iogurte Grego,1,480,338,142,20899,818,20081,0.7042,0.9275,0.9609,0.6275,"[{'reason': 'Falha Elétrica', 'duration': 10}, {'reason': 'Falha Elétrica', 'duration': 43}, {'reason': 'Manutenção Preventiva', 'duration': 89}]"
+2026-02-19,LINHA_B,Iogurte Grego,2,480,465,15,30507,1451,29056,0.9688,0.9841,0.9524,0.908,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}]"
+2026-02-19,LINHA_B,Iogurte Grego,3,480,434,46,26752,380,26372,0.9042,0.9246,0.9858,0.8241,"[{'reason': 'Limpeza CIP', 'duration': 32}, {'reason': 'Ajuste de Equipamento', 'duration': 14}]"
+2026-02-19,LINHA_C,Leite Fermentado,1,480,451,29,23670,1029,22641,0.9396,0.8997,0.9565,0.8086,"[{'reason': 'Controle de Qualidade', 'duration': 29}]"
+2026-02-19,LINHA_C,Leite Fermentado,2,480,480,0,24098,195,23903,1.0,0.8606,0.9919,0.8537,[]
+2026-02-19,LINHA_C,Leite Fermentado,3,480,444,36,25165,1072,24093,0.925,0.9716,0.9574,0.8605,"[{'reason': 'Falha Elétrica', 'duration': 15}, {'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-02-20,LINHA_A,Iogurte Natural,1,480,469,11,37058,438,36620,0.9771,0.9482,0.9882,0.9155,"[{'reason': 'Controle de Qualidade', 'duration': 11}]"
+2026-02-20,LINHA_A,Iogurte Natural,2,480,441,39,33581,224,33357,0.9187,0.9138,0.9933,0.8339,"[{'reason': 'Falha Elétrica', 'duration': 22}, {'reason': 'Troca de Sabor', 'duration': 17}]"
+2026-02-20,LINHA_A,Iogurte Natural,3,480,480,0,38593,192,38401,1.0,0.9648,0.995,0.96,[]
+2026-02-20,LINHA_B,Iogurte Grego,1,480,452,28,25860,1261,24599,0.9417,0.8582,0.9512,0.7687,"[{'reason': 'Falha Elétrica', 'duration': 28}]"
+2026-02-20,LINHA_B,Iogurte Grego,2,480,457,23,27285,419,26866,0.9521,0.8956,0.9846,0.8396,"[{'reason': 'Manutenção Preventiva', 'duration': 23}]"
+2026-02-20,LINHA_B,Iogurte Grego,3,480,480,0,30700,1489,29211,1.0,0.9594,0.9515,0.9128,[]
+2026-02-20,LINHA_C,Leite Fermentado,1,480,383,97,21476,927,20549,0.7979,0.9613,0.9568,0.7339,"[{'reason': 'Manutenção Preventiva', 'duration': 97}]"
+2026-02-20,LINHA_C,Leite Fermentado,2,480,469,11,24589,911,23678,0.9771,0.8988,0.963,0.8456,"[{'reason': 'Controle de Qualidade', 'duration': 11}]"
+2026-02-20,LINHA_C,Leite Fermentado,3,480,452,28,23878,1088,22790,0.9417,0.9056,0.9544,0.8139,"[{'reason': 'Manutenção Preventiva', 'duration': 28}]"
+2026-02-21,LINHA_A,Iogurte Natural,1,480,264,216,20881,178,20703,0.55,0.9491,0.9915,0.4658,"[{'reason': 'Falta de Matéria-Prima', 'duration': 175}, {'reason': 'Falha Elétrica', 'duration': 41}]"
+2026-02-21,LINHA_A,Iogurte Natural,2,480,340,140,27401,856,26545,0.7083,0.9671,0.9688,0.5973,"[{'reason': 'Troca de Sabor', 'duration': 34}, {'reason': 'Manutenção Preventiva', 'duration': 106}]"
+2026-02-21,LINHA_A,Iogurte Natural,3,480,459,21,34034,1091,32943,0.9563,0.8898,0.9679,0.7412,"[{'reason': 'Controle de Qualidade', 'duration': 21}]"
+2026-02-21,LINHA_B,Iogurte Grego,1,480,480,0,30843,296,30547,1.0,0.9638,0.9904,0.8591,[]
+2026-02-21,LINHA_B,Iogurte Grego,2,480,381,99,25144,1062,24082,0.7937,0.9899,0.9578,0.6773,"[{'reason': 'Controle de Qualidade', 'duration': 12}, {'reason': 'Manutenção Preventiva', 'duration': 87}]"
+2026-02-21,LINHA_B,Iogurte Grego,3,480,443,37,28180,1065,27115,0.9229,0.9542,0.9622,0.7626,"[{'reason': 'Falha Elétrica', 'duration': 25}, {'reason': 'Ajuste de Equipamento', 'duration': 12}]"
+2026-02-21,LINHA_C,Leite Fermentado,1,480,367,113,18824,386,18438,0.7646,0.8793,0.9795,0.5927,"[{'reason': 'Limpeza CIP', 'duration': 30}, {'reason': 'Manutenção Preventiva', 'duration': 83}]"
+2026-02-21,LINHA_C,Leite Fermentado,2,480,375,105,20979,635,20344,0.7812,0.959,0.9697,0.6539,"[{'reason': 'Falha Elétrica', 'duration': 40}, {'reason': 'Limpeza CIP', 'duration': 38}, {'reason': 'Ajuste de Equipamento', 'duration': 27}]"
+2026-02-21,LINHA_C,Leite Fermentado,3,480,437,43,22291,900,21391,0.9104,0.8744,0.9596,0.6876,"[{'reason': 'Controle de Qualidade', 'duration': 16}, {'reason': 'Ajuste de Equipamento', 'duration': 27}]"
+2026-02-22,LINHA_A,Iogurte Natural,1,480,430,50,34967,192,34775,0.8958,0.9758,0.9945,0.7824,"[{'reason': 'Controle de Qualidade', 'duration': 16}, {'reason': 'Limpeza CIP', 'duration': 34}]"
+2026-02-22,LINHA_A,Iogurte Natural,2,480,313,167,24928,1041,23887,0.6521,0.9557,0.9582,0.5375,"[{'reason': 'Limpeza CIP', 'duration': 44}, {'reason': 'Manutenção Preventiva', 'duration': 111}, {'reason': 'Controle de Qualidade', 'duration': 12}]"
+2026-02-22,LINHA_A,Iogurte Natural,3,480,480,0,37028,1382,35646,1.0,0.9257,0.9627,0.802,[]
+2026-02-22,LINHA_B,Iogurte Grego,1,480,433,47,28000,836,27164,0.9021,0.97,0.9701,0.764,"[{'reason': 'Limpeza CIP', 'duration': 47}]"
+2026-02-22,LINHA_B,Iogurte Grego,2,480,466,14,30438,367,30071,0.9708,0.9798,0.9879,0.8457,"[{'reason': 'Ajuste de Equipamento', 'duration': 14}]"
+2026-02-22,LINHA_B,Iogurte Grego,3,480,369,111,24125,850,23275,0.7688,0.9807,0.9648,0.6546,"[{'reason': 'Manutenção Preventiva', 'duration': 111}]"
+2026-02-22,LINHA_C,Leite Fermentado,1,480,414,66,22791,700,22091,0.8625,0.9437,0.9693,0.7101,"[{'reason': 'Manutenção Preventiva', 'duration': 66}]"
+2026-02-22,LINHA_C,Leite Fermentado,2,480,394,86,21859,160,21699,0.8208,0.9511,0.9927,0.6975,"[{'reason': 'Falta de Matéria-Prima', 'duration': 41}, {'reason': 'Falta de Matéria-Prima', 'duration': 45}]"
+2026-02-22,LINHA_C,Leite Fermentado,3,480,344,136,17980,375,17605,0.7167,0.896,0.9791,0.5659,"[{'reason': 'Falta de Matéria-Prima', 'duration': 136}]"
+2026-02-23,LINHA_A,Iogurte Natural,1,480,454,26,36316,842,35474,0.9458,0.9599,0.9768,0.8869,"[{'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-02-23,LINHA_A,Iogurte Natural,2,480,480,0,38702,691,38011,1.0,0.9676,0.9821,0.9503,[]
+2026-02-23,LINHA_A,Iogurte Natural,3,480,453,27,32407,707,31700,0.9437,0.8585,0.9782,0.7925,"[{'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-02-23,LINHA_B,Iogurte Grego,1,480,307,173,18680,724,17956,0.6396,0.9127,0.9612,0.5611,"[{'reason': 'Manutenção Preventiva', 'duration': 98}, {'reason': 'Limpeza CIP', 'duration': 32}, {'reason': 'Ajuste de Equipamento', 'duration': 17}, {'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-02-23,LINHA_B,Iogurte Grego,2,480,480,0,28533,497,28036,1.0,0.8917,0.9826,0.8761,[]
+2026-02-23,LINHA_B,Iogurte Grego,3,480,369,111,22824,298,22526,0.7688,0.9278,0.9869,0.7039,"[{'reason': 'Falha Elétrica', 'duration': 54}, {'reason': 'Falha Elétrica', 'duration': 57}]"
+2026-02-23,LINHA_C,Leite Fermentado,1,480,446,34,23689,905,22784,0.9292,0.9105,0.9618,0.8137,"[{'reason': 'Limpeza CIP', 'duration': 34}]"
+2026-02-23,LINHA_C,Leite Fermentado,2,480,436,44,23135,390,22745,0.9083,0.9096,0.9831,0.8123,"[{'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-02-23,LINHA_C,Leite Fermentado,3,480,480,0,25828,441,25387,1.0,0.9224,0.9829,0.9067,[]
+2026-02-24,LINHA_A,Iogurte Natural,1,480,454,26,37654,1211,36443,0.9458,0.9953,0.9678,0.9111,"[{'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-02-24,LINHA_A,Iogurte Natural,2,480,480,0,34453,1647,32806,1.0,0.8613,0.9522,0.8202,[]
+2026-02-24,LINHA_A,Iogurte Natural,3,480,480,0,37594,1243,36351,1.0,0.9399,0.9669,0.9088,[]
+2026-02-24,LINHA_B,Iogurte Grego,1,480,361,119,20511,993,19518,0.7521,0.8523,0.9516,0.6099,"[{'reason': 'Manutenção Preventiva', 'duration': 119}]"
+2026-02-24,LINHA_B,Iogurte Grego,2,480,362,118,23071,748,22323,0.7542,0.956,0.9676,0.6976,"[{'reason': 'Manutenção Preventiva', 'duration': 118}]"
+2026-02-24,LINHA_B,Iogurte Grego,3,480,405,75,25370,1115,24255,0.8438,0.9396,0.9561,0.758,"[{'reason': 'Manutenção Preventiva', 'duration': 75}]"
+2026-02-24,LINHA_C,Leite Fermentado,1,480,439,41,22361,1062,21299,0.9146,0.8732,0.9525,0.7607,"[{'reason': 'Troca de Sabor', 'duration': 41}]"
+2026-02-24,LINHA_C,Leite Fermentado,2,480,376,104,20576,752,19824,0.7833,0.9381,0.9635,0.708,"[{'reason': 'Limpeza CIP', 'duration': 46}, {'reason': 'Manutenção Preventiva', 'duration': 58}]"
+2026-02-24,LINHA_C,Leite Fermentado,3,480,440,40,24060,394,23666,0.9167,0.9374,0.9836,0.8452,"[{'reason': 'Manutenção Preventiva', 'duration': 40}]"
+2026-02-25,LINHA_A,Iogurte Natural,1,480,375,105,30499,411,30088,0.7812,0.976,0.9865,0.7522,"[{'reason': 'Falta de Matéria-Prima', 'duration': 98}, {'reason': 'Ajuste de Equipamento', 'duration': 7}]"
+2026-02-25,LINHA_A,Iogurte Natural,2,480,460,20,32631,799,31832,0.9583,0.8512,0.9755,0.7958,"[{'reason': 'Ajuste de Equipamento', 'duration': 11}, {'reason': 'Ajuste de Equipamento', 'duration': 9}]"
+2026-02-25,LINHA_A,Iogurte Natural,3,480,480,0,38490,1776,36714,1.0,0.9623,0.9539,0.9179,[]
+2026-02-25,LINHA_B,Iogurte Grego,1,480,456,24,27820,1044,26776,0.95,0.9151,0.9625,0.8367,"[{'reason': 'Ajuste de Equipamento', 'duration': 24}]"
+2026-02-25,LINHA_B,Iogurte Grego,2,480,480,0,30029,978,29051,1.0,0.9384,0.9674,0.9078,[]
+2026-02-25,LINHA_B,Iogurte Grego,3,480,434,46,27692,252,27440,0.9042,0.9571,0.9909,0.8575,"[{'reason': 'Limpeza CIP', 'duration': 46}]"
+2026-02-25,LINHA_C,Leite Fermentado,1,480,480,0,27485,1051,26434,1.0,0.9816,0.9618,0.9441,[]
+2026-02-25,LINHA_C,Leite Fermentado,2,480,480,0,24843,363,24480,1.0,0.8872,0.9854,0.8743,[]
+2026-02-25,LINHA_C,Leite Fermentado,3,480,385,95,19300,495,18805,0.8021,0.8594,0.9744,0.6716,"[{'reason': 'Manutenção Preventiva', 'duration': 95}]"
+2026-02-26,LINHA_A,Iogurte Natural,1,480,398,82,32925,1406,31519,0.8292,0.9927,0.9573,0.788,"[{'reason': 'Manutenção Preventiva', 'duration': 41}, {'reason': 'Troca de Sabor', 'duration': 41}]"
+2026-02-26,LINHA_A,Iogurte Natural,2,480,237,243,18614,715,17899,0.4938,0.9425,0.9616,0.4475,"[{'reason': 'Troca de Sabor', 'duration': 17}, {'reason': 'Troca de Sabor', 'duration': 45}, {'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Falta de Matéria-Prima', 'duration': 156}]"
+2026-02-26,LINHA_A,Iogurte Natural,3,480,406,74,30641,1422,29219,0.8458,0.9056,0.9536,0.7305,"[{'reason': 'Falha Elétrica', 'duration': 44}, {'reason': 'Troca de Sabor', 'duration': 30}]"
+2026-02-26,LINHA_B,Iogurte Grego,1,480,435,45,26252,1188,25064,0.9062,0.9052,0.9547,0.7833,"[{'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Ajuste de Equipamento', 'duration': 20}]"
+2026-02-26,LINHA_B,Iogurte Grego,2,480,296,184,17508,643,16865,0.6167,0.8872,0.9633,0.527,"[{'reason': 'Falta de Matéria-Prima', 'duration': 113}, {'reason': 'Ajuste de Equipamento', 'duration': 19}, {'reason': 'Limpeza CIP', 'duration': 52}]"
+2026-02-26,LINHA_B,Iogurte Grego,3,480,460,20,29053,1369,27684,0.9583,0.9474,0.9529,0.8651,"[{'reason': 'Troca de Sabor', 'duration': 20}]"
+2026-02-26,LINHA_C,Leite Fermentado,1,480,480,0,27263,495,26768,1.0,0.9737,0.9818,0.956,[]
+2026-02-26,LINHA_C,Leite Fermentado,2,480,457,23,23863,659,23204,0.9521,0.8951,0.9724,0.8287,"[{'reason': 'Controle de Qualidade', 'duration': 23}]"
+2026-02-26,LINHA_C,Leite Fermentado,3,480,480,0,25862,1208,24654,1.0,0.9236,0.9533,0.8805,[]
+2026-02-27,LINHA_A,Iogurte Natural,1,480,480,0,38586,904,37682,1.0,0.9647,0.9766,0.9421,[]
+2026-02-27,LINHA_A,Iogurte Natural,2,480,456,24,33209,405,32804,0.95,0.8739,0.9878,0.8201,"[{'reason': 'Controle de Qualidade', 'duration': 24}]"
+2026-02-27,LINHA_A,Iogurte Natural,3,480,480,0,35113,1225,33888,1.0,0.8778,0.9651,0.8472,[]
+2026-02-27,LINHA_B,Iogurte Grego,1,480,323,157,19237,364,18873,0.6729,0.8934,0.9811,0.5898,"[{'reason': 'Falta de Matéria-Prima', 'duration': 97}, {'reason': 'Manutenção Preventiva', 'duration': 60}]"
+2026-02-27,LINHA_B,Iogurte Grego,2,480,480,0,29770,626,29144,1.0,0.9303,0.979,0.9107,[]
+2026-02-27,LINHA_B,Iogurte Grego,3,480,427,53,28098,1345,26753,0.8896,0.987,0.9521,0.836,"[{'reason': 'Falha Elétrica', 'duration': 13}, {'reason': 'Limpeza CIP', 'duration': 40}]"
+2026-02-27,LINHA_C,Leite Fermentado,1,480,351,129,18956,897,18059,0.7312,0.9258,0.9527,0.645,"[{'reason': 'Falta de Matéria-Prima', 'duration': 129}]"
+2026-02-27,LINHA_C,Leite Fermentado,2,480,442,38,23434,700,22734,0.9208,0.9089,0.9701,0.8119,"[{'reason': 'Limpeza CIP', 'duration': 38}]"
+2026-02-27,LINHA_C,Leite Fermentado,3,480,463,17,26436,937,25499,0.9646,0.9788,0.9646,0.9107,"[{'reason': 'Controle de Qualidade', 'duration': 17}]"
+2026-02-28,LINHA_A,Iogurte Natural,1,480,344,136,25056,884,24172,0.7167,0.874,0.9647,0.5439,"[{'reason': 'Manutenção Preventiva', 'duration': 32}, {'reason': 'Troca de Sabor', 'duration': 24}, {'reason': 'Falha Elétrica', 'duration': 60}, {'reason': 'Falha Elétrica', 'duration': 20}]"
+2026-02-28,LINHA_A,Iogurte Natural,2,480,480,0,38163,585,37578,1.0,0.9541,0.9847,0.8455,[]
+2026-02-28,LINHA_A,Iogurte Natural,3,480,480,0,34991,178,34813,1.0,0.8748,0.9949,0.7833,[]
+2026-02-28,LINHA_B,Iogurte Grego,1,480,369,111,21218,124,21094,0.7688,0.8625,0.9942,0.5933,"[{'reason': 'Manutenção Preventiva', 'duration': 61}, {'reason': 'Falta de Matéria-Prima', 'duration': 50}]"
+2026-02-28,LINHA_B,Iogurte Grego,2,480,480,0,31476,499,30977,1.0,0.9836,0.9841,0.8712,[]
+2026-02-28,LINHA_B,Iogurte Grego,3,480,454,26,26736,758,25978,0.9458,0.8833,0.9716,0.7306,"[{'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-02-28,LINHA_C,Leite Fermentado,1,480,455,25,22790,514,22276,0.9479,0.8586,0.9774,0.716,"[{'reason': 'Controle de Qualidade', 'duration': 25}]"
+2026-02-28,LINHA_C,Leite Fermentado,2,480,460,20,26671,873,25798,0.9583,0.994,0.9673,0.8292,"[{'reason': 'Ajuste de Equipamento', 'duration': 20}]"
+2026-02-28,LINHA_C,Leite Fermentado,3,480,426,54,23138,840,22298,0.8875,0.9311,0.9637,0.7167,"[{'reason': 'Troca de Sabor', 'duration': 17}, {'reason': 'Falha Elétrica', 'duration': 37}]"
+2026-03-01,LINHA_A,Iogurte Natural,1,480,463,17,35690,840,34850,0.9646,0.925,0.9765,0.7841,"[{'reason': 'Controle de Qualidade', 'duration': 17}]"
+2026-03-01,LINHA_A,Iogurte Natural,2,480,305,175,23913,245,23668,0.6354,0.9408,0.9898,0.5325,"[{'reason': 'Falta de Matéria-Prima', 'duration': 159}, {'reason': 'Troca de Sabor', 'duration': 16}]"
+2026-03-01,LINHA_A,Iogurte Natural,3,480,460,20,36562,522,36040,0.9583,0.9538,0.9857,0.8109,"[{'reason': 'Ajuste de Equipamento', 'duration': 20}]"
+2026-03-01,LINHA_B,Iogurte Grego,1,480,419,61,25871,617,25254,0.8729,0.9262,0.9762,0.7103,"[{'reason': 'Controle de Qualidade', 'duration': 19}, {'reason': 'Troca de Sabor', 'duration': 42}]"
+2026-03-01,LINHA_B,Iogurte Grego,2,480,480,0,31005,251,30754,1.0,0.9689,0.9919,0.865,[]
+2026-03-01,LINHA_B,Iogurte Grego,3,480,384,96,24404,400,24004,0.8,0.9533,0.9836,0.6751,"[{'reason': 'Limpeza CIP', 'duration': 43}, {'reason': 'Manutenção Preventiva', 'duration': 53}]"
+2026-03-01,LINHA_C,Leite Fermentado,1,480,480,0,26838,781,26057,1.0,0.9585,0.9709,0.8375,[]
+2026-03-01,LINHA_C,Leite Fermentado,2,480,392,88,22151,560,21591,0.8167,0.9687,0.9747,0.694,"[{'reason': 'Falha Elétrica', 'duration': 28}, {'reason': 'Troca de Sabor', 'duration': 27}, {'reason': 'Troca de Sabor', 'duration': 33}]"
+2026-03-01,LINHA_C,Leite Fermentado,3,480,480,0,27390,1224,26166,1.0,0.9782,0.9553,0.841,[]
+2026-03-02,LINHA_A,Iogurte Natural,1,480,378,102,28607,1177,27430,0.7875,0.9082,0.9589,0.6857,"[{'reason': 'Falta de Matéria-Prima', 'duration': 102}]"
+2026-03-02,LINHA_A,Iogurte Natural,2,480,473,7,33900,1507,32393,0.9854,0.86,0.9555,0.8098,"[{'reason': 'Ajuste de Equipamento', 'duration': 7}]"
+2026-03-02,LINHA_A,Iogurte Natural,3,480,443,37,36739,293,36446,0.9229,0.9952,0.992,0.9112,"[{'reason': 'Falha Elétrica', 'duration': 37}]"
+2026-03-02,LINHA_B,Iogurte Grego,1,480,453,27,27370,1126,26244,0.9437,0.9063,0.9589,0.8201,"[{'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-03-02,LINHA_B,Iogurte Grego,2,480,380,100,22369,464,21905,0.7917,0.883,0.9793,0.6845,"[{'reason': 'Ajuste de Equipamento', 'duration': 24}, {'reason': 'Limpeza CIP', 'duration': 34}, {'reason': 'Limpeza CIP', 'duration': 42}]"
+2026-03-02,LINHA_B,Iogurte Grego,3,480,480,0,28973,750,28223,1.0,0.9054,0.9741,0.882,[]
+2026-03-02,LINHA_C,Leite Fermentado,1,480,435,45,22397,778,21619,0.9062,0.8826,0.9653,0.7721,"[{'reason': 'Manutenção Preventiva', 'duration': 45}]"
+2026-03-02,LINHA_C,Leite Fermentado,2,480,443,37,25083,997,24086,0.9229,0.9706,0.9603,0.8602,"[{'reason': 'Falha Elétrica', 'duration': 37}]"
+2026-03-02,LINHA_C,Leite Fermentado,3,480,464,16,26118,816,25302,0.9667,0.965,0.9688,0.9036,"[{'reason': 'Troca de Sabor', 'duration': 16}]"
+2026-03-03,LINHA_A,Iogurte Natural,1,480,421,59,33352,1097,32255,0.8771,0.9507,0.9671,0.8064,"[{'reason': 'Troca de Sabor', 'duration': 19}, {'reason': 'Controle de Qualidade', 'duration': 26}, {'reason': 'Controle de Qualidade', 'duration': 14}]"
+2026-03-03,LINHA_A,Iogurte Natural,2,480,419,61,30700,1383,29317,0.8729,0.8792,0.955,0.7329,"[{'reason': 'Manutenção Preventiva', 'duration': 61}]"
+2026-03-03,LINHA_A,Iogurte Natural,3,480,387,93,31713,984,30729,0.8063,0.9833,0.969,0.7682,"[{'reason': 'Manutenção Preventiva', 'duration': 70}, {'reason': 'Ajuste de Equipamento', 'duration': 23}]"
+2026-03-03,LINHA_B,Iogurte Grego,1,480,452,28,27755,1033,26722,0.9417,0.9211,0.9628,0.8351,"[{'reason': 'Controle de Qualidade', 'duration': 28}]"
+2026-03-03,LINHA_B,Iogurte Grego,2,480,460,20,27510,436,27074,0.9583,0.8971,0.9842,0.8461,"[{'reason': 'Ajuste de Equipamento', 'duration': 20}]"
+2026-03-03,LINHA_B,Iogurte Grego,3,480,480,0,29239,1340,27899,1.0,0.9137,0.9542,0.8718,[]
+2026-03-03,LINHA_C,Leite Fermentado,1,480,454,26,22816,828,21988,0.9458,0.8615,0.9637,0.7853,"[{'reason': 'Troca de Sabor', 'duration': 26}]"
+2026-03-03,LINHA_C,Leite Fermentado,2,480,437,43,24712,425,24287,0.9104,0.9694,0.9828,0.8674,"[{'reason': 'Limpeza CIP', 'duration': 43}]"
+2026-03-03,LINHA_C,Leite Fermentado,3,480,450,30,26010,874,25136,0.9375,0.9909,0.9664,0.8977,"[{'reason': 'Ajuste de Equipamento', 'duration': 30}]"
+2026-03-04,LINHA_A,Iogurte Natural,1,480,446,34,32656,1184,31472,0.9292,0.8786,0.9637,0.7868,"[{'reason': 'Troca de Sabor', 'duration': 34}]"
+2026-03-04,LINHA_A,Iogurte Natural,2,480,480,0,37571,635,36936,1.0,0.9393,0.9831,0.9234,[]
+2026-03-04,LINHA_A,Iogurte Natural,3,480,410,70,29494,1075,28419,0.8542,0.8632,0.9636,0.7105,"[{'reason': 'Controle de Qualidade', 'duration': 18}, {'reason': 'Falta de Matéria-Prima', 'duration': 23}, {'reason': 'Controle de Qualidade', 'duration': 15}, {'reason': 'Falha Elétrica', 'duration': 14}]"
+2026-03-04,LINHA_B,Iogurte Grego,1,480,462,18,26323,439,25884,0.9625,0.8546,0.9833,0.8089,"[{'reason': 'Falta de Matéria-Prima', 'duration': 18}]"
+2026-03-04,LINHA_B,Iogurte Grego,2,480,480,0,31420,501,30919,1.0,0.9819,0.9841,0.9662,[]
+2026-03-04,LINHA_B,Iogurte Grego,3,480,444,36,28120,549,27571,0.925,0.95,0.9805,0.8616,"[{'reason': 'Limpeza CIP', 'duration': 36}]"
+2026-03-04,LINHA_C,Leite Fermentado,1,480,273,207,15554,252,15302,0.5687,0.9767,0.9838,0.5465,"[{'reason': 'Troca de Sabor', 'duration': 29}, {'reason': 'Falha Elétrica', 'duration': 14}, {'reason': 'Falha Elétrica', 'duration': 49}, {'reason': 'Falta de Matéria-Prima', 'duration': 115}]"
+2026-03-04,LINHA_C,Leite Fermentado,2,480,469,11,23644,1181,22463,0.9771,0.8642,0.9501,0.8022,"[{'reason': 'Controle de Qualidade', 'duration': 11}]"
+2026-03-04,LINHA_C,Leite Fermentado,3,480,241,239,13758,686,13072,0.5021,0.9786,0.9501,0.4669,"[{'reason': 'Manutenção Preventiva', 'duration': 86}, {'reason': 'Falta de Matéria-Prima', 'duration': 153}]"
+2026-03-05,LINHA_A,Iogurte Natural,1,480,480,0,36467,395,36072,1.0,0.9117,0.9892,0.9018,[]
+2026-03-05,LINHA_A,Iogurte Natural,2,480,480,0,36162,1456,34706,1.0,0.9041,0.9597,0.8677,[]
+2026-03-05,LINHA_A,Iogurte Natural,3,480,454,26,35871,553,35318,0.9458,0.9481,0.9846,0.883,"[{'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-03-05,LINHA_B,Iogurte Grego,1,480,480,0,30868,1020,29848,1.0,0.9646,0.967,0.9327,[]
+2026-03-05,LINHA_B,Iogurte Grego,2,480,455,25,29592,972,28620,0.9479,0.9756,0.9672,0.8944,"[{'reason': 'Falha Elétrica', 'duration': 25}]"
+2026-03-05,LINHA_B,Iogurte Grego,3,480,402,78,25115,1245,23870,0.8375,0.9371,0.9504,0.7459,"[{'reason': 'Manutenção Preventiva', 'duration': 78}]"
+2026-03-05,LINHA_C,Leite Fermentado,1,480,359,121,18519,589,17930,0.7479,0.8843,0.9682,0.6404,"[{'reason': 'Ajuste de Equipamento', 'duration': 24}, {'reason': 'Controle de Qualidade', 'duration': 16}, {'reason': 'Falta de Matéria-Prima', 'duration': 81}]"
+2026-03-05,LINHA_C,Leite Fermentado,2,480,412,68,21191,1055,20136,0.8583,0.8817,0.9502,0.7191,"[{'reason': 'Ajuste de Equipamento', 'duration': 12}, {'reason': 'Ajuste de Equipamento', 'duration': 29}, {'reason': 'Ajuste de Equipamento', 'duration': 27}]"
+2026-03-05,LINHA_C,Leite Fermentado,3,480,310,170,15515,395,15120,0.6458,0.858,0.9745,0.54,"[{'reason': 'Falta de Matéria-Prima', 'duration': 135}, {'reason': 'Controle de Qualidade', 'duration': 21}, {'reason': 'Ajuste de Equipamento', 'duration': 14}]"
+2026-03-06,LINHA_A,Iogurte Natural,1,480,402,78,33207,416,32791,0.8375,0.9913,0.9875,0.8198,"[{'reason': 'Limpeza CIP', 'duration': 48}, {'reason': 'Falha Elétrica', 'duration': 30}]"
+2026-03-06,LINHA_A,Iogurte Natural,2,480,399,81,29635,356,29279,0.8313,0.8913,0.988,0.732,"[{'reason': 'Manutenção Preventiva', 'duration': 57}, {'reason': 'Troca de Sabor', 'duration': 24}]"
+2026-03-06,LINHA_A,Iogurte Natural,3,480,409,71,32575,830,31745,0.8521,0.9557,0.9745,0.7936,"[{'reason': 'Limpeza CIP', 'duration': 41}, {'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-03-06,LINHA_B,Iogurte Grego,1,480,436,44,24790,993,23797,0.9083,0.8529,0.9599,0.7437,"[{'reason': 'Ajuste de Equipamento', 'duration': 28}, {'reason': 'Controle de Qualidade', 'duration': 16}]"
+2026-03-06,LINHA_B,Iogurte Grego,2,480,181,299,11140,257,10883,0.3771,0.9232,0.9769,0.3401,"[{'reason': 'Falta de Matéria-Prima', 'duration': 147}, {'reason': 'Ajuste de Equipamento', 'duration': 22}, {'reason': 'Ajuste de Equipamento', 'duration': 9}, {'reason': 'Limpeza CIP', 'duration': 49}, {'reason': 'Falta de Matéria-Prima', 'duration': 72}]"
+2026-03-06,LINHA_B,Iogurte Grego,3,480,480,0,29948,523,29425,1.0,0.9359,0.9825,0.9195,[]
+2026-03-06,LINHA_C,Leite Fermentado,1,480,248,232,12409,79,12330,0.5167,0.8578,0.9936,0.4404,"[{'reason': 'Troca de Sabor', 'duration': 36}, {'reason': 'Falta de Matéria-Prima', 'duration': 173}, {'reason': 'Falta de Matéria-Prima', 'duration': 23}]"
+2026-03-06,LINHA_C,Leite Fermentado,2,480,437,43,23988,1070,22918,0.9104,0.941,0.9554,0.8185,"[{'reason': 'Limpeza CIP', 'duration': 43}]"
+2026-03-06,LINHA_C,Leite Fermentado,3,480,467,13,26681,1197,25484,0.9729,0.9794,0.9551,0.9101,"[{'reason': 'Controle de Qualidade', 'duration': 13}]"
+2026-03-07,LINHA_A,Iogurte Natural,1,480,480,0,38424,687,37737,1.0,0.9606,0.9821,0.8491,[]
+2026-03-07,LINHA_A,Iogurte Natural,2,480,388,92,31835,1051,30784,0.8083,0.9846,0.967,0.6926,"[{'reason': 'Manutenção Preventiva', 'duration': 20}, {'reason': 'Manutenção Preventiva', 'duration': 72}]"
+2026-03-07,LINHA_A,Iogurte Natural,3,480,372,108,27909,223,27686,0.775,0.9003,0.992,0.6229,"[{'reason': 'Controle de Qualidade', 'duration': 25}, {'reason': 'Falta de Matéria-Prima', 'duration': 83}]"
+2026-03-07,LINHA_B,Iogurte Grego,1,480,215,265,13012,106,12906,0.4479,0.9078,0.9919,0.363,"[{'reason': 'Ajuste de Equipamento', 'duration': 25}, {'reason': 'Troca de Sabor', 'duration': 44}, {'reason': 'Limpeza CIP', 'duration': 50}, {'reason': 'Falta de Matéria-Prima', 'duration': 146}]"
+2026-03-07,LINHA_B,Iogurte Grego,2,480,480,0,28300,738,27562,1.0,0.8844,0.9739,0.7752,[]
+2026-03-07,LINHA_B,Iogurte Grego,3,480,436,44,25436,295,25141,0.9083,0.8751,0.9884,0.7071,"[{'reason': 'Troca de Sabor', 'duration': 44}]"
+2026-03-07,LINHA_C,Leite Fermentado,1,480,313,167,17705,348,17357,0.6521,0.9697,0.9803,0.5579,"[{'reason': 'Manutenção Preventiva', 'duration': 73}, {'reason': 'Manutenção Preventiva', 'duration': 24}, {'reason': 'Falha Elétrica', 'duration': 55}, {'reason': 'Controle de Qualidade', 'duration': 15}]"
+2026-03-07,LINHA_C,Leite Fermentado,2,480,474,6,24040,397,23643,0.9875,0.8694,0.9835,0.76,"[{'reason': 'Ajuste de Equipamento', 'duration': 6}]"
+2026-03-07,LINHA_C,Leite Fermentado,3,480,397,83,20415,845,19570,0.8271,0.8815,0.9586,0.629,"[{'reason': 'Troca de Sabor', 'duration': 24}, {'reason': 'Limpeza CIP', 'duration': 59}]"
+2026-03-08,LINHA_A,Iogurte Natural,1,480,480,0,36055,1583,34472,1.0,0.9014,0.9561,0.7756,[]
+2026-03-08,LINHA_A,Iogurte Natural,2,480,480,0,34496,924,33572,1.0,0.8624,0.9732,0.7554,[]
+2026-03-08,LINHA_A,Iogurte Natural,3,480,480,0,38822,433,38389,1.0,0.9706,0.9888,0.8638,[]
+2026-03-08,LINHA_B,Iogurte Grego,1,480,447,33,28119,486,27633,0.9313,0.9436,0.9827,0.7772,"[{'reason': 'Ajuste de Equipamento', 'duration': 19}, {'reason': 'Controle de Qualidade', 'duration': 14}]"
+2026-03-08,LINHA_B,Iogurte Grego,2,480,462,18,28303,531,27772,0.9625,0.9189,0.9812,0.7811,"[{'reason': 'Controle de Qualidade', 'duration': 18}]"
+2026-03-08,LINHA_B,Iogurte Grego,3,480,442,38,26896,689,26207,0.9208,0.9128,0.9744,0.7371,"[{'reason': 'Falta de Matéria-Prima', 'duration': 38}]"
+2026-03-08,LINHA_C,Leite Fermentado,1,480,337,143,19252,368,18884,0.7021,0.9793,0.9809,0.607,"[{'reason': 'Manutenção Preventiva', 'duration': 113}, {'reason': 'Controle de Qualidade', 'duration': 30}]"
+2026-03-08,LINHA_C,Leite Fermentado,2,480,409,71,20978,566,20412,0.8521,0.8793,0.973,0.6561,"[{'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Manutenção Preventiva', 'duration': 21}, {'reason': 'Ajuste de Equipamento', 'duration': 23}]"
+2026-03-08,LINHA_C,Leite Fermentado,3,480,369,111,21002,446,20556,0.7688,0.9757,0.9788,0.6607,"[{'reason': 'Falta de Matéria-Prima', 'duration': 54}, {'reason': 'Falha Elétrica', 'duration': 57}]"
+2026-03-09,LINHA_A,Iogurte Natural,1,480,443,37,33893,1332,32561,0.9229,0.9181,0.9607,0.814,"[{'reason': 'Falha Elétrica', 'duration': 37}]"
+2026-03-09,LINHA_A,Iogurte Natural,2,480,480,0,35178,1682,33496,1.0,0.8794,0.9522,0.8374,[]
+2026-03-09,LINHA_A,Iogurte Natural,3,480,480,0,37406,1162,36244,1.0,0.9351,0.9689,0.9061,[]
+2026-03-09,LINHA_B,Iogurte Grego,1,480,403,77,25063,545,24518,0.8396,0.9329,0.9783,0.7662,"[{'reason': 'Limpeza CIP', 'duration': 42}, {'reason': 'Limpeza CIP', 'duration': 35}]"
+2026-03-09,LINHA_B,Iogurte Grego,2,480,399,81,24887,331,24556,0.8313,0.9356,0.9867,0.7674,"[{'reason': 'Manutenção Preventiva', 'duration': 81}]"
+2026-03-09,LINHA_B,Iogurte Grego,3,480,480,0,28077,1183,26894,1.0,0.8774,0.9579,0.8404,[]
+2026-03-09,LINHA_C,Leite Fermentado,1,480,328,152,16673,364,16309,0.6833,0.8714,0.9782,0.5825,"[{'reason': 'Falta de Matéria-Prima', 'duration': 11}, {'reason': 'Ajuste de Equipamento', 'duration': 17}, {'reason': 'Falta de Matéria-Prima', 'duration': 124}]"
+2026-03-09,LINHA_C,Leite Fermentado,2,480,442,38,24069,1035,23034,0.9208,0.9335,0.957,0.8226,"[{'reason': 'Ajuste de Equipamento', 'duration': 15}, {'reason': 'Ajuste de Equipamento', 'duration': 23}]"
+2026-03-09,LINHA_C,Leite Fermentado,3,480,457,23,25349,378,24971,0.9521,0.9509,0.9851,0.8918,"[{'reason': 'Troca de Sabor', 'duration': 23}]"
+2026-03-10,LINHA_A,Iogurte Natural,1,480,480,0,39244,637,38607,1.0,0.9811,0.9838,0.9652,[]
+2026-03-10,LINHA_A,Iogurte Natural,2,480,480,0,39224,1595,37629,1.0,0.9806,0.9593,0.9407,[]
+2026-03-10,LINHA_A,Iogurte Natural,3,480,411,69,31467,654,30813,0.8562,0.9187,0.9792,0.7703,"[{'reason': 'Falta de Matéria-Prima', 'duration': 25}, {'reason': 'Limpeza CIP', 'duration': 44}]"
+2026-03-10,LINHA_B,Iogurte Grego,1,480,480,0,29533,1371,28162,1.0,0.9229,0.9536,0.8801,[]
+2026-03-10,LINHA_B,Iogurte Grego,2,480,480,0,28599,410,28189,1.0,0.8937,0.9857,0.8809,[]
+2026-03-10,LINHA_B,Iogurte Grego,3,480,470,10,28833,749,28084,0.9792,0.9202,0.974,0.8776,"[{'reason': 'Ajuste de Equipamento', 'duration': 10}]"
+2026-03-10,LINHA_C,Leite Fermentado,1,480,432,48,23261,566,22695,0.9,0.9231,0.9757,0.8105,"[{'reason': 'Falha Elétrica', 'duration': 48}]"
+2026-03-10,LINHA_C,Leite Fermentado,2,480,387,93,21991,278,21713,0.8063,0.9741,0.9874,0.7755,"[{'reason': 'Ajuste de Equipamento', 'duration': 27}, {'reason': 'Limpeza CIP', 'duration': 50}, {'reason': 'Ajuste de Equipamento', 'duration': 16}]"
+2026-03-10,LINHA_C,Leite Fermentado,3,480,480,0,24658,501,24157,1.0,0.8806,0.9797,0.8628,[]
+2026-03-11,LINHA_A,Iogurte Natural,1,480,255,225,19660,142,19518,0.5312,0.9252,0.9928,0.4879,"[{'reason': 'Falta de Matéria-Prima', 'duration': 66}, {'reason': 'Manutenção Preventiva', 'duration': 81}, {'reason': 'Manutenção Preventiva', 'duration': 78}]"
+2026-03-11,LINHA_A,Iogurte Natural,2,480,480,0,37306,922,36384,1.0,0.9326,0.9753,0.9096,[]
+2026-03-11,LINHA_A,Iogurte Natural,3,480,480,0,34149,860,33289,1.0,0.8537,0.9748,0.8322,[]
+2026-03-11,LINHA_B,Iogurte Grego,1,480,431,49,27546,276,27270,0.8979,0.9587,0.99,0.8522,"[{'reason': 'Falha Elétrica', 'duration': 49}]"
+2026-03-11,LINHA_B,Iogurte Grego,2,480,453,27,26455,584,25871,0.9437,0.876,0.9779,0.8085,"[{'reason': 'Controle de Qualidade', 'duration': 27}]"
+2026-03-11,LINHA_B,Iogurte Grego,3,480,335,145,21572,337,21235,0.6979,0.9659,0.9844,0.6636,"[{'reason': 'Falta de Matéria-Prima', 'duration': 73}, {'reason': 'Limpeza CIP', 'duration': 46}, {'reason': 'Controle de Qualidade', 'duration': 26}]"
+2026-03-11,LINHA_C,Leite Fermentado,1,480,390,90,19563,114,19449,0.8125,0.8599,0.9942,0.6946,"[{'reason': 'Limpeza CIP', 'duration': 59}, {'reason': 'Limpeza CIP', 'duration': 31}]"
+2026-03-11,LINHA_C,Leite Fermentado,2,480,283,197,14886,94,14792,0.5896,0.9017,0.9937,0.5283,"[{'reason': 'Falta de Matéria-Prima', 'duration': 156}, {'reason': 'Manutenção Preventiva', 'duration': 41}]"
+2026-03-11,LINHA_C,Leite Fermentado,3,480,296,184,16260,577,15683,0.6167,0.9417,0.9645,0.5601,"[{'reason': 'Controle de Qualidade', 'duration': 13}, {'reason': 'Falta de Matéria-Prima', 'duration': 159}, {'reason': 'Controle de Qualidade', 'duration': 12}]"
