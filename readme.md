@@ -1,10 +1,20 @@
 # OEE Dashboard - Industrial Data Portfolio
 
-This repository serves as a technical demonstration of my skills in **Data Engineering, Backend Integration (SQLite), and Frontend Visualization (Streamlit)**. It simulates a real-world Industry 4.0 scenario: monitoring Overall Equipment Effectiveness (OEE) in a dairy production line.
+<p align="center">
+  This repository serves as a technical demonstration of my skills in <b>Data Engineering, Backend Integration (SQLite), and Frontend Visualization (Streamlit)</b>. It simulates a real-world Industry 4.0 scenario: monitoring Overall Equipment Effectiveness (OEE) in a dairy production line.
+</p>
 
-![OEE Dashboard](https://img.shields.io/badge/OEE-Real--time-blue)
-![Python](https://img.shields.io/badge/Python-3.9+-green)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
+<p align="center">
+  <a href="https://oee-dashboard-s4qt4tsczhlwshysv779qe.streamlit.app/">
+    <img src="https://img.shields.io/badge/🚀_View_Live_Dashboard-Click_Here-blue?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OEE-Real--time-blue" alt="OEE">
+  <img src="https://img.shields.io/badge/Python-3.9+-green" alt="Python">
+  <img src="https://img.shields.io/badge/Streamlit-1.28+-red" alt="Streamlit">
+</p>
 
 ---
 
@@ -28,21 +38,29 @@ The goal of this project is to demonstrate a full-cycle data solution:
 * **Production Comparison**: Dynamic filters to compare performance across different shifts and production lines.
 
 ## 🖼️ Dashboard Preview
-### 1. Main Overview & KPIs
-Displaying the core metrics: OEE, Availability, Performance, and Quality.
-![Main Dashboard](dash_main.png)
 
-### 2. Interactive Filters
-The dashboard allows dynamic analysis by date, production line, and shift.
-![Filters Preview](dash_filters1.png)
-![Filters Preview](dash_filters2.png)
-![Filters Preview](dash_filters3.png)
+### Live Demo Preview
+<p align="center">
+  <img src="screenshots/dash.gif" width="850" alt="Main Dashboard GIF">
+</p>
 
-### 3. Performance & Pareto Analysis
-Visualizing downtime causes and efficiency trends over time.
-![Analysis Preview](dash_charts1.png) 
-![Analysis Preview](dash_charts2.png)
-![Analysis Preview](dash_charts3.png)
+### 1. Interactive Filters
+<div align="center">
+
+| Filter View 1 | Filter View 2 | Filter View 3 |
+| :---: | :---: | :---: |
+| ![Filters 1](screenshots/dash_filters1.png) | ![Filters 2](screenshots/dash_filters2.png) | ![Filters 3](screenshots/dash_filters3.png) |
+
+</div>
+
+### 2. Performance & Pareto Analysis
+<div align="center">
+
+| Pareto Analysis | Time Series | Quality Metrics |
+| :---: | :---: | :---: |
+| ![Charts 1](screenshots/dash_charts1.png) | ![Charts 2](screenshots/dash_charts2.png) | ![Charts 3](screenshots/dash_charts3.png) |
+
+</div>
 
 ---
 
@@ -55,5 +73,5 @@ This project is structured to showcase clean code and modularity:
 ---
 **Note:** This is a portfolio project and is not intended for production use. It aims to showcase technical proficiency in the Python data ecosystem.
 
-**Contact:** www.linkedin.com/in/ricardoserenatojr
-**Contact:** ricardoserenato@gmail.com
+**Contact:** [Ricardo Serenato Junior](https://www.linkedin.com/in/ricardoserenatojr)  
+**Email:** [ricardoserenato@gmail.com](mailto:ricardoserenato@gmail.com)
