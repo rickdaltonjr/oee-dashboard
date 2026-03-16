@@ -58,7 +58,7 @@ The goal of this project is to demonstrate a full-cycle data solution:
 
 | Pareto Analysis | Time Series | Quality Metrics |
 | :---: | :---: | :---: |
-| ![Charts 1](screenshots/dash_charts1.png) | ![Charts 2](screenshots/dash_charts2.png) | ![Charts 3](screenshots/dash_charts3.png) |
+| ![Charts 1](screenshots/dash_chart1.png) | ![Charts 2](screenshots/dash_chart2.png) | ![Charts 3](screenshots/dash_chart3.png) |
 
 </div>
 
