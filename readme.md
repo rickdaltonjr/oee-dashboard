@@ -56,7 +56,7 @@ The goal of this project is to demonstrate a full-cycle data solution:
 ### 2. Performance & Pareto Analysis
 <div align="center">
 
-| Pareto Analysis | Time Series | Quality Metrics |
+| Evolution | Comparison | Downtime |
 | :---: | :---: | :---: |
 | ![Charts 1](screenshots/dash_chart1.png) | ![Charts 2](screenshots/dash_chart2.png) | ![Charts 3](screenshots/dash_chart3.png) |
 
