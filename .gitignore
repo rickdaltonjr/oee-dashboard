@@ -1,13 +1,41 @@
-# Ignorar o arquivo fantasma do Windows
+### Windows Files ###
+# Ignore Windows "ghost" file
 nul
+# Ignore thumbnail caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Ignorar pastas temporárias do Jupyter Notebook
-.ipynb_checkpoints/
-
-# Ignorar pastas do Python
+### Python & Environment ###
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignorar ambientes virtuais
+# Virtual Environments
 venv/
 env/
+.env
+.venv
+ENV/
+
+### Jupyter Notebook ###
+.ipynb_checkpoints/
+
+### Databases (Highly Recommended for SQLite) ###
+# Ignore local database files to avoid overwriting data on GitHub
+*.db
+*.sqlite3
+*.sqlite
+
+### IDEs & Editors ###
+# Visual Studio Code
+.vscode/
+# PyCharm / JetBrains
+.idea/
+
+### Streamlit ###
+# Ignore Streamlit's local configuration and credentials
+.streamlit/config.toml
+.streamlit/credentials.toml

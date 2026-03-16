@@ -4,7 +4,7 @@ import pandas as pd
 conn = sqlite3.connect('database/oee_database.db')
 cursor = conn.cursor()
 
-print("Banco conectado: database/oee_database.db")
+print("DataBase Conected: database/oee_database.db")
 
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS production (
@@ -46,7 +46,6 @@ cursor.execute('''
     )
     ''')
     
-    # Tabela de MÉTRICAS DIÁRIAS (agregado)
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS daily_metrics (
         date DATE NOT NULL,
@@ -59,5 +58,5 @@ cursor.execute('''
     ''')
     
 conn.commit()
-print("✅ Tabelas criadas com sucesso")
+print("Tables created successfully")
 conn.close()
